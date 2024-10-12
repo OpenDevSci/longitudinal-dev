@@ -38,6 +38,10 @@ export default defineNuxtConfig({
     '/api/search.json': { prerender: true }
   },
 
+  app: {
+    baseURL: process.env.NUXT_APP_BASE_URL || '/longit/' // Set this to your GitHub repo slug
+  },
+
   devtools: {
     enabled: true
   },
