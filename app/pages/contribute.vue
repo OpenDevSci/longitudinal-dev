@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 import RComponent from "~/components/RComponent.vue";
 
 export default {
@@ -7,11 +7,11 @@ export default {
   },
   layout: "playground", // Specify the layout
 };
-</script>
+</script> -->
 
 <template>
   <div>
     <h1>Contribute Page</h1>
-    <RComponent />
+    <!-- <RComponent /> -->
   </div>
 </template>

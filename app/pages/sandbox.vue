@@ -9,21 +9,21 @@
     </p>
 
     <!-- MeanComponent Integration -->
-    <div>
+    <!-- <div>
       <MeanComponent />
-    </div>
+    </div> -->
 
     <!-- Test Section -->
     <div>test</div>
 
     <!-- RComponent Integration -->
-    <div class="r-component-wrapper">
+    <!-- <div class="r-component-wrapper">
       <RComponent />
-    </div>
+    </div> -->
   </div>
 </template>
 
-<script setup>
+<!-- <script setup>
 import RComponent from "~/components/RComponent.vue";
 import MeanComponent from "~/components/MeanComponent.vue";
 </script>
@@ -60,4 +60,4 @@ import MeanComponent from "~/components/MeanComponent.vue";
   padding: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
-</style>
+</style> -->
