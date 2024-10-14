@@ -1,68 +1,102 @@
-title: 'Nuxt UI Pro - Docs template'
-description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
-navigation: false
 hero:
-  title: 'Build your docs in seconds'
-  description: 'Create your documentation in seconds with this template!'
+  title: "<span class='white-text'> A </span> <br> <span class='highlight'>Longitudinal Data Science</span> <br> <span class='white-text'>Platform</span>"
+  description: "Open Source Documentation, Examples, Templates, and Tools"
   orientation: horizontal
   headline:
-    label: Made with Nuxt UI Pro
-    to: https://ui.nuxt.com/pro
+    label: Looking for ABCD Examples?
+    to: /abcd-study
+    icon: i-heroicons-arrow-top-right-on-square-20-solid
+  subheadline:
+    label: Page Under Construction
+    description: "XXxxxx"
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
     - label: Get started
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
-      to: '/getting-started'
+      to: "/getting-started"
       size: lg
     - label: Use this template
       icon: i-simple-icons-github
       size: lg
       color: gray
-      to: https://github.com/nuxt-ui-pro/docs
+      to: https://github.com/OpenDevSci/LongDev-ABCD
       target: _blank
   code: |
-    ```bash [Terminal]
-    npx nuxi init -t github:nuxt-ui-pro/docs
+    ```r [longitudinal_GLMM.r]
+    # Load necessary libraries
+    library(tidyverse)
+    library(glmmTMB)
+
+    # Load the ABCD Study dataset
+    data(abcd)
+
+    # Create a scatter plot with a regression line
+    ggplot(abcd, aes(x = event, y = cbcl_adhd)) +
+    geom_point(color = "blue", size = 3) +
+    geom_smooth(method = "lm", color = "red", se = FALSE) +
+    labs(title: "Relationship between CBCL ADHD scores and event",
+    x: "Event (Assessment Wave)",
+    y: "CBCL ADHD Scores",
+    caption: "Data from the Adolescent Brain Cognitive Development (ABCD) Study") +
+    theme_minimal()
+
+    # Fit a zero-inflated model
+    model <- glmmTMB(CBCL_ADHD ~ 1 +  age + sex +
+             factor(visit) + (1+visit| family),
+             family=truncated_genpois(link="log"),
+             ziformula=~1 + age + sex + factor(visit) +
+             (1+visit| family),
+             data=abcd, REML=FALSE, 
+             control = glmmTMBControl(parallel = 16)))
+
+    # Display model summary
+    summary(model)
+
     ```
+  titleClasses: "text-center mx-auto w-5/5 reduce-spacing hero-custom"
+  descriptionClasses: "text-lg hero-description mt-4 sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl"
+  headlineClasses: "mt-6 headline-link"
+  linkClasses: "mt-6 hero-links"
 features:
-  title: 'All-in-one docs template'
-  links:
-    - label: 'Explore Nuxt UI Pro'
-      icon: 'i-simple-icons-nuxtdotjs'
-      trailingIcon: 'i-heroicons-arrow-right-20-solid'
-      color: 'gray'
-      to: 'https://ui.nuxt.com/pro'
-      target: '_blank'
-      size: lg
+  title: "Explore Content"
+  # links:
+  #   - label: "Discover xxxxx"
+  #     icon: "i-simple-icons-nuxtdotjs"
+  #     trailingIcon: "i-heroicons-arrow-right-20-solid"
+  #     color: "gray"
+  #     to: "https://github.com/OpenDevSci/LongDev-ABCD"
+  #     target: "_blank"
+  #     size: lg
   items:
-    - title: 'Nuxt 3'
-      description: 'Powered by Nuxt 3 for optimal performances and SEO.'
-      icon: 'i-simple-icons-nuxtdotjs'
-      to: 'https://nuxt.com'
-      target: '_blank'
-    - title: 'Markdown'
-      description: 'Write your pages with MDC thanks to Nuxt Content.'
-      icon: 'i-simple-icons-markdown'
-      to: 'https://content.nuxt.com'
-      target: '_blank'
-    - title: 'Nuxt UI'
-      description: 'Offers a very large set of full customizable components.'
-      icon: 'i-heroicons-sparkles-20-solid'
-      to: 'https://ui.nuxt.com'
-      target: '_blank'
-    - title: 'TypeScript'
-      description: 'A fully typed development experience.'
-      icon: 'i-simple-icons-typescript'
-      to: 'https://www.typescriptlang.org'
-      target: '_blank'
-    - title: 'Nuxt Studio'
-      description: 'Supported by Nuxt Studio for fast updates and previews.'
-      icon: 'i-simple-icons-nuxtdotjs'
-      to: 'https://nuxt.studio'
-      target: '_blank'
-    - title: 'Search'
-      description: 'A full-text search modal empowered by Fuse.js.'
-      icon: 'i-heroicons-magnifying-glass-20-solid'
-      to: 'https://ui.nuxt.com/pro/components/docs/docs-search'
-      target: '_blank'
+    - title: "Contribute"
+      description: "How to contribute to the project."
+      icon: "i-heroicons-information-circle-solid"
+      to: "https://github.com/OpenDevSci/LongDev-ABCD/blob/main/docs/Contributing.md"
+      target: "_self"
+    - title: "ABCD Examples"
+      description: "Code-driven examples using data from the ABCD Study."
+      icon: "i-heroicons-sparkles-20-solid"
+      to: "/abcd-study"
+      target: "_blank"
+    - title: "Tutorials"
+      description: "Longitudinal methods and analysis"
+      icon: "i-heroicons-sparkles-20-solid"
+      to: "/tutorials"
+      target: "_self"
+    - title: "Statistics Learning Resources"
+      description: "Resources for Stats Learning."
+      icon: "i-simple-icons-r"
+      to: "/resources"
+      target: "_blank"
+    - title: "Github"
+      description: "Go to the project's Github page."
+      icon: "i-simple-icons-github"
+      to: "https://github.com/OpenDevSci/LongDev-ABCD"
+      target: "_blank"
+    - title: "Open Source Tools"
+      description: "Tools for researchers."
+      icon: "i-heroicons-magnifying-glass-20-solid"
+      to: "/tools"
+      target: "_self" # Optional, "_self" is the default and opens the link in the same tab
+
