@@ -24,7 +24,7 @@ hero:
       target: _blank
   code: |
     ```r [longitudinal_GLMM.r]
-    # Load necessary libraries
+    # Loadd necessary libraries
     library(tidyverse)
     library(glmmTMB)
 
