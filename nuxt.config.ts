@@ -39,7 +39,7 @@ export default defineNuxtConfig({
         '/api/_content/query/JPfzfXpE83.1728957996020.json',
         '/plotly-view',
         '/contribute',
-        '/sandbox',
+        '/sandbox'
         // '/longit/about',
         // '/longit/getting-started',
         // '/tutorials/data-visualization/viz_customizing-plots-ggplot2',
@@ -55,16 +55,16 @@ export default defineNuxtConfig({
         // '/longit/tutorials/longitudinal-analyses-models/advanced-models/generalized_estimating_equations_tutorial',
         // '/longit/tutorials/longitudinal-analyses-models/mixture-models/growth_mixture_models_tutorial',
         // '/longit/tutorials/longitudinal-analyses-models/mixed-effects-and-multilevel/linear-mixedeffects-models',
-        '/longit/tools/programming-languages/r/rtestfile1',
-        '/longit/tools/programming-languages/r/rtestfile2',
-        '/longit/tutorials/longitudinal-analyses-models/mixture-models/latent_class_growth_analysis_autorial',
-        '/longit/tutorials/special-case-tutorials/advanced_bootstrapping-and-resampling',
-        '/longit/tutorials/exploratory-data-analysis/exploratory_diagnostic-plots',
-        '/longit/tutorials/data-wrangling/cleaning-and-transforming-data',
-        '/longit/tutorials/longitudinal-analyses-models/advanced-models/latent-curve-model-with-structured-residuals',
-        '/longit/tutorials/longitudinal-analyses-models/advanced-models/random_intercept_cross_lagged_panel_model_tutorial',
-        '/longit/abcd-study/traditional-nonlinear-models/examples_signedranktest',
-        '/longit/tutorials/exploratory-data-analysis/exploratory_model-evaluation'
+        // '/longit/tools/programming-languages/r/rtestfile1',
+        // '/longit/tools/programming-languages/r/rtestfile2',
+        // '/longit/tutorials/longitudinal-analyses-models/mixture-models/latent_class_growth_analysis_autorial',
+        // '/longit/tutorials/special-case-tutorials/advanced_bootstrapping-and-resampling',
+        // '/longit/tutorials/exploratory-data-analysis/exploratory_diagnostic-plots',
+        // '/longit/tutorials/data-wrangling/cleaning-and-transforming-data',
+        // '/longit/tutorials/longitudinal-analyses-models/advanced-models/latent-curve-model-with-structured-residuals',
+        // '/longit/tutorials/longitudinal-analyses-models/advanced-models/random_intercept_cross_lagged_panel_model_tutorial',
+        // '/longit/abcd-study/traditional-nonlinear-models/examples_signedranktest',
+        // '/longit/tutorials/exploratory-data-analysis/exploratory_model-evaluation'
         // Add more routes to ignore as needed
       ]
     }
