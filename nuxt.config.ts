@@ -36,7 +36,7 @@ export default defineNuxtConfig({
       crawlLinks: true, // Enable crawling to find more links automatically
       ignore: [
         // '/tools/6.data-formats',
-        '/api/_content/query/JPfzfXpE83.1728957996020.json'
+        // '/api/_content/query/JPfzfXpE83.1728957996020.json'
         // '/plotly-view',
         // '/contribute',
         // '/sandbox'
