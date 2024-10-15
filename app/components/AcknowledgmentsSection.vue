@@ -18,7 +18,7 @@
 <script setup>
 const labs = [
   {
-    logo: "/images/abcd-study-logo.png",
+    logo: "public/images/abcd-study-logo.png",
     alt: "ABCD Study logo",
     link: "https://abcdstudy.org/",
   },
