@@ -18,22 +18,22 @@
 <script setup>
 const labs = [
   {
-    logo: "public/images/abcd-study-logo.png",
+    logo: "images/abcd-study-logo.png",
     alt: "ABCD Study logo",
     link: "https://abcdstudy.org/",
   },
   {
-    logo: "/images/sunlab-logo.jpeg",
+    logo: "images/sunlab-logo.jpeg",
     alt: "SUN Lab logo",
     link: "https://sunlab.fiu.edu/",
   },
   {
-    logo: "/images/wallerlab-logo.png",
+    logo: "images/wallerlab-logo.png",
     alt: "Waller Lab logo",
     link: "https://upennedenlab.com/",
   },
   {
-    logo: "/images/ccf-logo.jpg",
+    logo: "images/ccf-logo.jpg",
     alt: "CCF logo",
     link: "https://ccf.fiu.edu/",
   },
