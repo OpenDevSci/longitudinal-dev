@@ -1,21 +1,20 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('index', () => queryContent('/').findOne())
+const { data: page } = await useAsyncData("index", () =>
+  queryContent("/").findOne()
+);
 
 useSeoMeta({
-  titleTemplate: '',
+  titleTemplate: "",
   title: page.value.title,
   ogTitle: page.value.title,
   description: page.value.description,
-  ogDescription: page.value.description
-})
+  ogDescription: page.value.description,
+});
 </script>
 
 <template>
   <div>
-    <ULandingHero
-      v-if="page.hero"
-      v-bind="page.hero"
-    >
+    <ULandingHero v-if="page.hero" v-bind="page.hero">
       <template #headline>
         <UBadge
           v-if="page.hero.headline"
@@ -29,10 +28,7 @@ useSeoMeta({
             class="focus:outline-none"
             tabindex="-1"
           >
-            <span
-              class="absolute inset-0"
-              aria-hidden="true"
-            />
+            <span class="absolute inset-0" aria-hidden="true" />
           </NuxtLink>
 
           {{ page.hero.headline.label }}
@@ -55,10 +51,7 @@ useSeoMeta({
       />
     </ULandingHero>
 
-    <ULandingSection
-      :title="page.features.title"
-      :links="page.features.links"
-    >
+    <ULandingSection :title="page.features.title" :links="page.features.links">
       <UPageGrid>
         <ULandingCard
           v-for="(item, index) of page.features.items"
@@ -67,5 +60,6 @@ useSeoMeta({
         />
       </UPageGrid>
     </ULandingSection>
+    <AcknowledgmentsSection />
   </div>
 </template>

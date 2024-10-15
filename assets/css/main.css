@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles to reduce spacing */
+.reduce-spacing {
+  padding-top: 2rem !important; /* Adjust as needed */
+  padding-bottom: 12rem !important; /* Adjust as needed */
+}
+/* Custom styling for the hero section */
+.hero-custom {
+  color: #ffffff; /* White color */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif; /* Adjust the font family */
+  letter-spacing: 1px; /* Add letter spacing */
+}
+
+/* Highlight specific words */
+.highlight {
+  color: #00dc82; /* Nuxt green color */
+}
+
+/* Styling for the description */
+.hero-description {
+  color: #ffffff; /* White color */
+  margin-top: 1rem;
+  font-family: "Arial", sans-serif;
+}
+
+/* Styling for the headline link */
+.headline-link {
+  color: #ffffff; /* White color */
+  transition: color 0.3s ease;
+}
+
+.headline-link:hover {
+  color: #cbd5e0; /* Light gray color on hover */
+}
+
+/* Styling for the links */
+.hero-links a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #2b6cb0; /* Blue background */
+  color: #ffffff; /* White text */
+  border-radius: 0.375rem; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-links a:hover {
+  background-color: #2c5282; /* Darker blue background on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+/* Additional styling for the hero code block */
+.hero-code pre {
+  background-color: #2d3748; /* Dark gray background */
+  border: 1px solid #4a5568; /* Gray border */
+  padding: 1rem;
+  border-radius: 0.375rem;
+  color: #ffffff; /* White text */
+}
+
+.section {
+  padding: 20px;
+}
+
+.book-gallery-section {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.video-gallery-section {
+  background-color: #e9ecef;
+  padding: 40px 20px;
+}
+
+.tutorial-gallery-section {
+  background-color: #d3f9d8; /* Light green background color */
+  padding: 40px 20px;
+}
+
+.book-gallery,
+.video-gallery,
+.tutorial-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.book,
+.video,
+.tutorial {
+  text-align: center;
+  max-width: 200px;
+}
+
+.book-cover,
+.video iframe {
+  width: 150px;
+  height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h3 {
+  margin: 10px 0 5px;
+  font-size: 1.1em;
+}
+
+/* p {
+  font-size: 0.9em;
+  color: #555;
+} */
+
+.white-text {
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.full-screen-wrapper {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.when-to-use-section {
+  border: 2px solid #00dc82; /* Nuxt green border */
+  box-shadow: 0 0 10px white; /* White box shadow */
+  border-radius: 0.25rem; /* Optional: round the corners */
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(211, 211, 211, 0.1);
+}
+
+.getting-started-section {
+  /* border: 2px solid grey;
+  border-radius: 10px; */
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(211, 211, 211, 0);
+}
+.highlighted-content-header {
+  color: #00dc82; /* Nuxt green text */
+  text-shadow: 0 0 10px white; /* White shadow */
+  border: 2px solid #00dc82; /* Nuxt green border */
+  padding: 0.25rem; /* Adjust padding as needed */
+  display: inline-block;
+  box-shadow: 0 0 10px white; /* White box shadow */
+  border-radius: 0.25rem; /* Optional: round the corners */
+}
+
+.hands-on-section {
+  /* Background color remains consistent with the rest of the page */
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 30px 0;
+  box-shadow: 0px 4px 8px rgba(176, 156, 156, 0.1);
+}
+
+/* Text and List Styling: All non-code block text in white */
+.hands-on-section p,
+.hands-on-section li {
+  color: #ffffff; /* White text for paragraphs and list items */
+  /* font-size: 16px; */
+}
+
+/* Headings with white text and slight shadow */
+.hands-on-section h3,
+.hands-on-section h4 {
+  color: #ffffff; /* White text for headings */
+  font-weight: bold;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); /* Shadow for better readability */
+}
+
+/* List styling */
+.hands-on-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.hands-on-section ul li {
+  margin-bottom: 10px;
+}
+
+.tabcontent {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.tab-buttons button {
+  padding: 10px 15px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.tab-buttons button.active {
+  background-color: #00dc82;
+  color: #fff;
+}

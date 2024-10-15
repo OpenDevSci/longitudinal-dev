@@ -1,127 +1,121 @@
-![nuxt-ui-docs-social-card](https://github.com/nuxt-ui-pro/docs/assets/739984/f64e13d9-9ae0-4e03-bf7f-6be4c36cd9ba)
 
-# Nuxt UI Pro - Docs template
 
-[![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt.js&labelColor=020420)](https://ui.nuxt.com/pro)
-[![Nuxt Studio](https://img.shields.io/badge/Open%20in%20Nuxt%20Studio-18181B?&logo=nuxt.js&logoColor=3BB5EC)](https://nuxt.studio/themes/docs)
 
-- [Live demo](https://docs-template.nuxt.dev/)
-- [Play on Stackblitz](https://stackblitz.com/github/nuxt-ui-pro/docs)
-- [Documentation](https://ui.nuxt.com/pro/getting-started)
-- [Clone on Nuxt Studio](https://nuxt.studio/templates/docs)
 
-[![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://hub.nuxt.com/new?repo=nuxt-ui-pro/docs)
 
-## Quick Start
+<a name="readme-top"></a>
 
-```bash [Terminal]
-npx nuxi init -t github:nuxt-ui-pro/docs
-```
+[![](https://github.com/codespaces/badge.svg)](https://codespaces.new/openresearchcollabs/LAP-ABCD?quickstart=1)
 
-## Setup
+<p align="center">
+  <a href="https://github.com/OpenDevSci/LongDev-ABCD">
+    <img src="img/lights.png" alt="Logo" width="200" height="200"/>
+  </a>
+</p>
 
-Make sure to install the dependencies:
+<h1 align="center">Longitudinal Analysis Portal (LAP) for ABCD Study</h1>
 
-```bash
-# npm
-npm install
+<p align="center">
+  <strong>Empowering Longitudinal Analysis through Open Collaboration.</strong>
+  <br />
+  A hub for learning, sharing, and implementing longitudinal analysis methods using data from the Adolescent Brain and Cognitive Development (ABCD) Study.
+  <br />
+  <a href="https://github.com/OpenDevSci/LongDev-ABCD"><strong>Explore the Documentation »</strong></a>
+  <br />
+  <a href="https://github.com/OpenDevSci/LongDev-ABCD/issues">Report Bug</a> •
+  <a href="https://github.com/OpenDevSci/LongDev-ABCD/issues">Request Feature</a>
+</p>
 
-# pnpm
-pnpm install
+<p align="center">
+tags: Longitudinal Analysis, ABCD Study, Biostatistics, Open Science, R Programming
+</p>
 
-# yarn
-yarn install
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Chat on Slack](https://img.shields.io/badge/chat-on%20slack-yellow.svg)
 
-# bun
-bun install
-```
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Discussion & Issues](#discussion--issues)
+- [Codespace](#codespace)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
-## Development Server
+## About the Project
 
-Start the development server on `http://localhost:3000`:
+This repository is intended to serve as an open-source hub designed to foster collaboration, learning, and application of longitudinal analysis methods. This project, underpinned by data from the ABCD study, aims to bridge the gap between statistical methods and their practical implementation. A primary aim is to enable researchers and students alike to access, contribute to, and learn from a rich repository of knowledge and code.
 
-```bash
-# npm
-npm run dev
+## Features
 
-# pnpm
-pnpm run dev
+- **Comprehensive Method Overviews**: Detailed explanations and comparisons of various longitudinal analysis methods.
+- **R Code Snippets**: Ready-to-use code examples to help researchers apply methods to their own data.
+- **Collaborative Environment**: Tools and guidelines for contributing to both the academic manuscript and codebase.
+- **Educational Resources**: Guides, tutorials, and links to further readings for those new to longitudinal analysis.
 
-# yarn
-yarn dev
+## Getting Started
 
-# bun
-bun run dev
-```
+To get a local copy up and running follow these simple steps.
 
-## Production
+### Installation
 
-Build the application for production:
+1. Clone the repo
+   ```sh
+   git clone https://github.com/OpenDevSci/LongDev-ABCD.git
+   cd LAP-ABCD
+   ```
 
-```bash
-# npm
-npm run build
+[Additional steps specific to the project]
 
-# pnpm
-pnpm run build
+## Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. Check out our [Contribution Guide](docs/Contributing.md) for more information on how to get started.
 
-# yarn
-yarn build
+## Discussion & Issues
 
-# bun
-bun run build
-```
+**Join Our Community Conversations!** 🗣️
 
-Locally preview production build:
+Your contributions make a difference. Whether you're looking for help, offering suggestions, or have questions, the community is here for you.
 
-```bash
-# npm
-npm run preview
+- **Ask Questions or Start a Discussion**: Visit the [Discussion Forum](https://github.com/OpenDevSci/LongDev-ABCD/discussions) to ask questions, share your findings, or start a conversation on research methods and analysis.
 
-# pnpm
-pnpm run preview
+- **Report and Solve Issues**: If you come across a problem or have an idea to share, head over to our [Issues Tracker](https://github.com/OpenDevSci/LongDev-ABCD/issues). Here, you can see what we’re currently working on, report new issues, or help us improve the project.
 
-# yarn
-yarn preview
+Need help getting started? Our [Discussion](docs/Discussion.md) and [Issues](docs/Issues.md) guides provide all the information you need to use these resources effectively.
 
-# bun
-bun run preview
-```
+## 🚀 Codespace
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+**Quickly prepare your development environment** with LONGDEV-ABCD Codespaces. Whether you're contributing from afar or simply want to streamline your setup, our Codespaces have you covered. 
 
-## Nuxt Studio integration
+📘 For detailed instructions and how to utilize Codespaces for our project, dive into our [**Codespaces Guide**](docs/Codespaces.md).
 
-Add `@nuxthq/studio` dependency to your package.json:
+## License
+This project is licensed under the MIT License - see the [LICENSE](docs/LICENSE) file for details.
 
-```bash
-# npm
-npm install --save-dev @nuxthq/studio
+## Contact
+For general queries or direct contributions, join our Slack channel: Join Slack
 
-# pnpm
-pnpm add -D @nuxthq/studio
+[Project Link](https://github.com/OpenDevSci/LongDev-ABCD)
 
-# yarn
-yarn add -D @nuxthq/studio
+## Acknowledgments
+Thanks to all contributors and the ABCD Study organizers.
+Special thanks to [XYZ] for providing essential xxxxxx.
+Add additional acknowledgements.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# bun
-bun add -d @nuxthq/studio
-```
 
-Add this module to your `nuxt.config.ts`:
+### Add Buttons for Quick Actions
 
-```ts
-export default defineNuxtConfig({
-  ...
-  modules: [
-    ...
-    '@nuxthq/studio'
-  ]
-})
-```
+```markdown
+<p align="center">
+  <a href="https://github.com/OpenDevSci/LongDev-ABCD/issues/new?assignees=&labels=bug&template=bug_report.md">Report Bug</a> •
+  <a href="https://github.com/OpenDevSci/LongDev-ABCD/issues/new?assignees=&labels=enhancement&template=feature_request.md">Request Feature</a> •
+  <a href="/docs/Contributing.md">Contribute</a>
+</p>
 
-Read more on [Nuxt Studio docs](https://nuxt.studio/docs/get-started/setup).
 
-## Renovate integration
-
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
