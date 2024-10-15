@@ -145,13 +145,13 @@
             >Quarto</a
           >
         </li>
-        <!-- <li>
+        <li>
           <a
-            href="/tools/6.data-formats"
+            href="/tools#data-formats"
             class="text-white hover:text-gray-300 whitespace-nowrap"
             >Markdown</a
           >
-        </li> -->
+        </li>
         <li>
           <a href="#" class="text-white hover:text-gray-300 whitespace-nowrap"
             >Book Club</a
