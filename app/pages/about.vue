@@ -9,12 +9,13 @@
     <section class="mb-12">
       <h2 class="text-2xl font-semibold mb-4 text-gray-200">Our Mission</h2>
       <p class="text-gray-100 leading-relaxed">
-        Longitudinal.dev is a collaborative and community-driven hub of resources for longitudinal data science. Whether you’re just starting or seeking to expand
-        your expertise, you’ll find tutorials, open-source tools, code examples,
-        and documentation that may be useful at different stages of research.
-        The platform is fully open source—- feel free to explore and see if you
-        find something useful, or if you have something to share or just want to
-        get involved, take a look at our
+        Longitudinal.dev isz a collaborative and community-driven hub of
+        resources for longitudinal data science. Whether you’re just starting or
+        seeking to expand your expertise, you’ll find tutorials, open-source
+        tools, code examples, and documentation that may be useful at different
+        stages of research. The platform is fully open source—- feel free to
+        explore and see if you find something useful, or if you have something
+        to share or just want to get involved, take a look at our
         <a
           href="https://github.com/OpenDevSci/LongDev-ABCD/blob/main/docs/Contributing.md"
           target="_blank"
@@ -23,9 +24,6 @@
         >
           contribution guide </a
         >.
-
-        
-
       </p>
     </section>
 
@@ -50,7 +48,8 @@
           </h3>
           <p class="text-gray-100">
             Explore a curated collection of open-source software and packages
-            that streamline your data analysis process and increase your effectiveness in handling longitudinal data.
+            that streamline your data analysis process and increase your
+            effectiveness in handling longitudinal data.
           </p>
         </div>
         <!-- Code Examples -->
@@ -66,9 +65,9 @@
         <div>
           <h3 class="text-xl font-medium mb-2 text-gray-300">Documentation</h3>
           <p class="text-gray-100">
-            Access detailed documentation on methodologies, statistical models, and best
-            practices. Our documentation serves as a reliable reference to
-            support your analytical endeavors.
+            Access detailed documentation on methodologies, statistical models,
+            and best practices. Our documentation serves as a reliable reference
+            to support your analytical endeavors.
           </p>
         </div>
       </div>
@@ -133,9 +132,15 @@
           >support@longitudinal.dev</a
         >
         or connect through our
-        <a href="https://longitudinaldev.slack.com" class="text-blue-500 hover:underline">community forums</a>
+        <a
+          href="https://longitudinaldev.slack.com"
+          class="text-blue-500 hover:underline"
+          >community forums</a
+        >
         and
-        <a href="https://discord.com/channels/1288111827649171456/1288111940820013139" class="text-blue-500 hover:underline"
+        <a
+          href="https://discord.com/channels/1288111827649171456/1288111940820013139"
+          class="text-blue-500 hover:underline"
           >social media channels</a
         >.
       </p>
