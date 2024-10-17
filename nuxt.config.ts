@@ -28,9 +28,9 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: [
-        '/', // Home page
-        '/abcd-study',
-        '/abcd-study/'
+        '/' // Home page
+        // '/abcd-study',
+        // '/abcd-study/'
         // '/about', // Example additional route (add more routes as necessary)
         // '/longit/tools', // Example
         // '/longit/tutorials' // Example
