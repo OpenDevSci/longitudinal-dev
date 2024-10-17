@@ -4,7 +4,7 @@ hero:
   orientation: horizontal
   headline:
     label: Looking for ABCD Examples?
-    # to: /abcd-study
+    to: /abcd-study
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   subheadline:
     label: Page Under Construction
