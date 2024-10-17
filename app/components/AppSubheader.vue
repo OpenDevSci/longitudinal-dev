@@ -126,6 +126,13 @@
         </li>
         <li>
           <a
+            href="/abcd-study"
+            class="text-white hover:text-gray-300 whitespace-nowrap"
+            >Tutorials</a
+          >
+        </li>
+        <li>
+          <a
             href="/tutorials"
             class="text-white hover:text-gray-300 whitespace-nowrap"
             >Tutorials</a
