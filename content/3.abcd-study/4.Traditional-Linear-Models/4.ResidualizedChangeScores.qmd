@@ -1,7 +1,7 @@
 ---
 title: "Residualized Change Scores"
 author: "Biostatistics Working Group"
-layout: default
+# layout: default
 ---
 
 ```r  [codeBlock.r]
