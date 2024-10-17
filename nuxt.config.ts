@@ -28,14 +28,15 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: [
-        '/' // Home page
+        '/', // Home page
+        '/abcd-study'
         // '/about', // Example additional route (add more routes as necessary)
         // '/longit/tools', // Example
         // '/longit/tutorials' // Example
       ],
       crawlLinks: true, // Enable crawling to find more links automatically
       ignore: [
-        '/longit/abcd-study'
+        // '/longit/abcd-study'
         // '/tools/6.data-formats',
         // '/api/_content/query/JPfzfXpE83.1728957996020.json'
         // '/plotly-view',
