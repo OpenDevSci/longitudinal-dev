@@ -29,6 +29,7 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/', // Home page
+        '/abcd-study/',
         '/abcd-study', // Add this to ensure the page is pre-rendered
         '/tutorials' // Add other essential routes that are frequently accessed
       ],
