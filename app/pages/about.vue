@@ -9,7 +9,7 @@
     <section class="mb-12">
       <h2 class="text-2xl font-semibold mb-4 text-gray-200">Our Mission</h2>
       <p class="text-gray-100 leading-relaxed">
-        Longitudinal.dev isz a collaborative and community-driven hub of
+        Longitudinal.dev is a collaborative and community-driven hub of
         resources for longitudinal data science. Whether you’re just starting or
         seeking to expand your expertise, you’ll find tutorials, open-source
         tools, code examples, and documentation that may be useful at different
