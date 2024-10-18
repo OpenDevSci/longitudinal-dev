@@ -29,25 +29,10 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/', // Home page
-        '/abcd-study/',
-        '/abcd-study', // Add this to ensure the page is pre-rendered
-        '/tutorials' // Add other essential routes that are frequently accessed
+        '/abcd-study/'
       ],
       crawlLinks: true, // Enable crawling to find more links automatically
       ignore: []
-    },
-    // Adjust manual chunking to prevent circular dependencies
-    rollupConfig: {
-      output: {
-        manualChunks(id) {
-          if (id.includes('node_modules/nitropack')) {
-            return 'nitropack'
-          }
-          if (id.includes('node_modules/@nuxt/content')) {
-            return 'nuxt-content'
-          }
-        }
-      }
     }
   },
 
