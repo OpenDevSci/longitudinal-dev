@@ -23,7 +23,7 @@ hero:
       to: https://github.com/OpenDevSci/LongDev-ABCD
       target: _blank
   code: |
-    ```r [longitudinal_GLMM.r]
+    ```r [longitudinal_example.r]
     # Loadd necessary libraries
     library(tidyverse)
     library(glmmTMB)
