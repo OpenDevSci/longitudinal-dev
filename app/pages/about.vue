@@ -1,3 +1,7 @@
+<script setup lang="ts">
+definePageMeta({ documentDriven: { page: false } });
+</script>
+
 <template>
   <div class="container mx-auto px-4 py-12">
     <!-- Header -->
@@ -92,7 +96,8 @@
           href="https://github.com/OpenDevSci/LongDev-ABCD/blob/main/docs/Contributing.md"
           target="_blank"
           class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-500 transition"
-          >Contribute</a
+        >
+          Contribute</a
         >
 
         <a
@@ -147,10 +152,6 @@
     </section>
   </div>
 </template>
-
-<script setup>
-// No additional script needed for a static About page
-</script>
 
 <style scoped>
 /* Optional: Add any additional scoped styles here */

@@ -9,6 +9,10 @@ export default {
 };
 </script> -->
 
+<script setup lang="ts">
+definePageMeta({ documentDriven: { page: false } });
+</script>
+
 <template>
   <div>
     <h1>Contribute Page</h1>

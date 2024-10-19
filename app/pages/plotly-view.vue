@@ -28,6 +28,8 @@ import type {
   NuxtPlotlyLayout,
   NuxtPlotlyHTMLElement,
 } from "nuxt-plotly";
+
+definePageMeta({ documentDriven: { page: false } });
 // import { people } from '~/data/peopleData'
 
 const x = [1, 2, 3, 4, 5];

@@ -12,6 +12,7 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
+    "@heroicons/vue": "^2.1.5",
     "@iconify-json/heroicons": "^1.2.0",
     "@iconify-json/simple-icons": "^1.2.4",
     "@nuxt/content": "^2.13.2",
