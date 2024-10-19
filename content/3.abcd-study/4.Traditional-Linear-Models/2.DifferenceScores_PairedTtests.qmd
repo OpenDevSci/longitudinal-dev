@@ -14,6 +14,7 @@ This is a link to the [Traditional Linear Models](./1.index.md) page.
 ######
 
 
+
 ::code-group
 
 ```r [setUp.r]

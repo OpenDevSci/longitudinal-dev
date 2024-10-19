@@ -1,5 +1,3 @@
-# This file can be deleted once resources is functioning correctly in the
-content folder
 <template>
   <div class="wrapper">
     <header class="r-header flex justify-center items-center text-white h-64">

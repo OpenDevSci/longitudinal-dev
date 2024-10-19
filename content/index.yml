@@ -1,5 +1,5 @@
 hero:
-  title: "<span class='white-text'> A </span> <br> <span class='highlight'>Longitudinal Data Science</span> <br> <span class='white-text'>Platform</span>"
+  title: "<span class='red-text'> A </span> <br> <span class='highlight'>Longitudinal Data Science</span> <br> <span class='white-text'>Platform</span>"
   description: "Open Source Documentation, Examples, Templates, and Tools"
   orientation: horizontal
   headline:

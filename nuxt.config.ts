@@ -74,12 +74,12 @@ export default defineNuxtConfig({
   content: {
     documentDriven: true, // Ensuring document-driven mode is correctly enabled
     highlight: {
-      langs: ['json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'md', 'yaml', 'r']
+      langs: ['json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'md', 'yaml', 'r', 'mdc']
     }
   },
   css: [
-    // '@fortawesome/fontawesome-free/css/all.min.css',
-    // '~/assets/css/main.css'
+    '@fortawesome/fontawesome-free/css/all.min.css',
+    '@/assets/css/main.css'
   ],
   build: {
     postcss: {

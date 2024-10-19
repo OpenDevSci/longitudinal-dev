@@ -3,6 +3,37 @@ title: "Residualized Change Scores"
 author: "Biostatistics Working Group"
 ---
 
+
+
+
+::tabs
+  ::div
+  ---
+  label: Code
+  icon: i-heroicons-code-bracket-square
+  ---
+
+  ```mdc
+  ::callout
+  Lorem velit voluptate ex reprehenderit ullamco et culpa.
+  ::
+  ```
+  ::
+
+  ::div
+  ---
+  label: Preview
+  icon: i-heroicons-magnifying-glass-circle
+  ---
+
+  ::callout
+  Lorem velit voluptate ex reprehenderit ullamco et culpa.
+  ::
+  ::
+::
+
+
+
 ```r  [codeBlock.r]
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
