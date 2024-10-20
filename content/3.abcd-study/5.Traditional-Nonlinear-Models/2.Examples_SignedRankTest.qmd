@@ -60,7 +60,7 @@ df_long <- df_long %>%
 ## Overview
 The Signed Rank-Sum test is a non-parametric method used to compare paired samples or repeated measures. Unlike traditional parametric tests, it does not assume normality and is particularly useful when dealing with skewed distributions or ordinal data. This method extends the Wilcoxon signed rank-sum test to handle multiple measurements over time, making it suitable for longitudinal data analysis.
 
-This example will examine changes in height across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study. The primary aim is to determine whether there are significant changes in height over time, while accounting for observations that are clustered within youth over time. The signed rank-sum test will help us identify whether height levels have significantly increased or decreased across the three time points without making parametric assumptions about the data distribution.
+This example will examine changes in height across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study®. The primary aim is to determine whether there are significant changes in height over time, while accounting for observations that are clustered within youth over time. The signed rank-sum test will help us identify whether height levels have significantly increased or decreased across the three time points without making parametric assumptions about the data distribution.
 
 ## Preliminary Setup
 ### Load Packages

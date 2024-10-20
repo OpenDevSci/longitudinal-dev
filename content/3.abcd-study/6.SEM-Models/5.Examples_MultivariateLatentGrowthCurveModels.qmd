@@ -88,7 +88,7 @@ df_long <- df_selected %>%
 
 ## Overview
 
-In this example, we will utilize xxxxxx models to analyze xxxxxx obtained across multiple measurement occasions for a sample of youth participating in the ABCD Study. Our primary objective is to understand xxxxxx, while factoring in the clustered nature of observations within individuals over time. XXXX models facilitate this by xxxxx.
+In this example, we will utilize xxxxxx models to analyze xxxxxx obtained across multiple measurement occasions for a sample of youth participating in the ABCD Study®. Our primary objective is to understand xxxxxx, while factoring in the clustered nature of observations within individuals over time. XXXX models facilitate this by xxxxx.
 
 ## Results
 ### Compute Multivariate Latent Growth Curve Model

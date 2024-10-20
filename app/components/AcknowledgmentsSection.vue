@@ -19,7 +19,7 @@
 const labs = [
   {
     logo: "images/abcd-study-logo.png",
-    alt: "ABCD Study logo",
+    alt: "ABCD Study® logo",
     link: "https://abcdstudy.org/",
   },
   {

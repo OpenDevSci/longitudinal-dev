@@ -55,7 +55,7 @@ df_long <- df %>%
 ## Overview
 The Linear mixed model (LMM) with a random intercept is similar to traditional (fixed-effect) linear regression, extending on this approach by including a subject-specific random-effect that allows each participant to have their own unique intercept value, in addition to the overall mean-level (fixed-effect) intercept value.
 
-This example will examine trajectories of height obtained across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study. The primary aim is to characterize stability and change in participant's height, while accounting for observations that are clustered within youth over time. The random-intercept LMM will simultaneously estimate an overall sample mean (fixed effect) for the height trajectory's intercept and slope values, as well as subject-specific (random) effects that vary randomly about the mean intercept value.
+This example will examine trajectories of height obtained across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study®. The primary aim is to characterize stability and change in participant's height, while accounting for observations that are clustered within youth over time. The random-intercept LMM will simultaneously estimate an overall sample mean (fixed effect) for the height trajectory's intercept and slope values, as well as subject-specific (random) effects that vary randomly about the mean intercept value.
 
 ## Preliminary Setup
 ### Load Packages

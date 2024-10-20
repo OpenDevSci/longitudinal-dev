@@ -58,7 +58,7 @@ df_long <- df %>%
 
 The Linear mixed model (LMM) with a random intercept and slope extends the traditional fixed-effect linear regression by incorporating random effects for the intercept and slope parameters. This allows each participant to have their own unique intercept and slope values, reflecting individual starting points and rates of change, in addition to the overall mean-level (fixed-effect) trajectory.
 
-This example will examine trajectories of height obtained across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study. The primary aim is to characterize stability and change in participant's height, while accounting for observations that are clustered within youth over time. The LMM with a random intercept and slope will simultaneously estimate an overall sample mean (fixed effect) for the height trajectory's intercept and slope values, as well as subject-specific (random) effects that vary randomly about the mean intercept and slope values.
+This example will examine trajectories of height obtained across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study®. The primary aim is to characterize stability and change in participant's height, while accounting for observations that are clustered within youth over time. The LMM with a random intercept and slope will simultaneously estimate an overall sample mean (fixed effect) for the height trajectory's intercept and slope values, as well as subject-specific (random) effects that vary randomly about the mean intercept and slope values.
 
 ## Preliminary Setup
 ### Load Packages

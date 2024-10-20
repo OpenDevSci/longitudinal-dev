@@ -28,7 +28,7 @@ hero:
     library(tidyverse)
     library(glmmTMB)
 
-    # Load the ABCD Study dataset
+    # Load the ABCD Study® dataset
     data(abcd)
 
     # Create a scatter plot with a regression line
@@ -75,7 +75,7 @@ features:
       to: "https://github.com/OpenDevSci/LongDev-ABCD/blob/main/docs/Contributing.md"
       target: "_self"
     - title: "ABCD Examples"
-      description: "Code-driven examples using data from the ABCD Study."
+      description: "Code-driven examples using data from the ABCD Study®."
       icon: "i-heroicons-sparkles-20-solid"
       to: "/abcd-study"
       target: "_blank"

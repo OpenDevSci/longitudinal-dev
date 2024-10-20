@@ -58,7 +58,7 @@ df_long <- df_long %>%
 ## Overview
 Marginal models, also known as population-averaged models, are used in the analysis of longitudinal data where the focus is on the overall population effect rather than individual-specific effects. These models account for the correlation between repeated measures within subjects by using generalized estimating equations (GEE) to provide robust standard errors and efficient parameter estimates.
 
-This example will examine height across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study. The primary aim is to characterize the average growth pattern in height over time at the population level. Marginal models will be employed to estimate the overall mean height at each time point, while accounting for the correlation of repeated measurements within individuals, thus providing a comprehensive understanding of height changes across the entire sample.
+This example will examine height across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study®. The primary aim is to characterize the average growth pattern in height over time at the population level. Marginal models will be employed to estimate the overall mean height at each time point, while accounting for the correlation of repeated measurements within individuals, thus providing a comprehensive understanding of height changes across the entire sample.
 
 ## Preliminary Setup
 

@@ -13,7 +13,7 @@
   </a>
 </p>
 
-<h1 align="center">Longitudinal Analysis Portal (LAP) for ABCD Study</h1>
+<h1 align="center">Longitudinal Analysis Portal (LAP) for ABCD Study®</h1>
 
 <p align="center">
   <strong>Empowering Longitudinal Analysis through Open Collaboration.</strong>
@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-tags: Longitudinal Analysis, ABCD Study, Biostatistics, Open Science, R Programming
+tags: Longitudinal Analysis, ABCD Study®, Biostatistics, Open Science, R Programming
 </p>
 
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
@@ -50,7 +50,7 @@ tags: Longitudinal Analysis, ABCD Study, Biostatistics, Open Science, R Programm
 
 ## About the Project
 
-This repository is intended to serve as an open-source hub designed to foster collaboration, learning, and application of longitudinal analysis methods. This project, underpinned by data from the ABCD study, aims to bridge the gap between statistical methods and their practical implementation. A primary aim is to enable researchers and students alike to access, contribute to, and learn from a rich repository of knowledge and code.
+This repository is intended to serve as an open-source hub designed to foster collaboration, learning, and application of longitudinal analysis methods. This project, underpinned by data from the ABCD Study®, aims to bridge the gap between statistical methods and their practical implementation. A primary aim is to enable researchers and students alike to access, contribute to, and learn from a rich repository of knowledge and code.
 
 ## Features
 
@@ -103,7 +103,7 @@ For general queries or direct contributions, join our Slack channel: Join Slack
 [Project Link](https://github.com/OpenDevSci/LongDev-ABCD)
 
 ## Acknowledgments
-Thanks to all contributors and the ABCD Study organizers.
+Thanks to all contributors and the ABCD Study® organizers.
 Special thanks to [XYZ] for providing essential xxxxxx.
 Add additional acknowledgements.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

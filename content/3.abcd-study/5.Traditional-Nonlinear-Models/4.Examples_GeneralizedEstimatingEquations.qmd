@@ -59,7 +59,7 @@ df_long <- df_long %>%
 
 Generalized Estimating Equations (GEE) are an extension of generalized linear models used for analyzing longitudinal and other correlated response data. GEEs provide a method for estimating the parameters of a generalized linear model with and are particularly useful when dealing with repeated measurements or clustered data, offering robust standard errors that account for within-subject correlations.
 
-This example will examine height across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study. The primary aim is to characterize the average growth pattern in height over time at the population level. GEEs will be employed to estimate the mean height at each time point, accounting for the correlation of repeated measurements within individuals. This approach will help us understand how height changes over time while providing robust estimates that account for the inherent correlation in the repeated measures data.
+This example will examine height across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study®. The primary aim is to characterize the average growth pattern in height over time at the population level. GEEs will be employed to estimate the mean height at each time point, accounting for the correlation of repeated measurements within individuals. This approach will help us understand how height changes over time while providing robust estimates that account for the inherent correlation in the repeated measures data.
 
 ## Preliminary Setup
 ### Load R libraries

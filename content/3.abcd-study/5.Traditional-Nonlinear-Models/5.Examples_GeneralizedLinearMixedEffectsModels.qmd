@@ -66,7 +66,7 @@ df_long <- df_long %>%
 ## Overview
 Generalized Linear Mixed Models (GLMMs) extend generalized linear models to include both fixed and random effects, allowing for the analysis of non-normal response variables and accounting for the correlation within clustered or repeated measures data. GLMMs are particularly useful when dealing with hierarchical data structures, offering a flexible framework to model various types of response distributions.
 
-This example will examine height across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study. The primary aim is to characterize the growth pattern in height over time, while accounting for the repeated measures within individuals. GLMMs will be used to estimate both the overall population effects (fixed effects) and individual-specific deviations (random effects) from the population mean, providing a detailed understanding of height changes over time with the ability to model different types of response distributions.
+This example will examine height across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study®. The primary aim is to characterize the growth pattern in height over time, while accounting for the repeated measures within individuals. GLMMs will be used to estimate both the overall population effects (fixed effects) and individual-specific deviations (random effects) from the population mean, providing a detailed understanding of height changes over time with the ability to model different types of response distributions.
 
 ## Preliminary Setup
 ### Load R libraries

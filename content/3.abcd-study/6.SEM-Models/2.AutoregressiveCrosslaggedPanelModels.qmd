@@ -62,7 +62,7 @@ df_long <- df_long %>%
 ## Overview
 Autoregressive Cross-Lagged Panel Analysis (ARCL) is a statistical technique used to examine the reciprocal relationships between variables over time. This method incorporates both autoregressive paths, which account for the stability of each variable across time points, and cross-lagged paths, which assess the influence of one variable on another over subsequent time points.
 
-This example will examine the height and weight across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study. The primary aim is to explore the reciprocal relationships between height and weight at different time points, analyzing how height at one time point predicts weight at future time points (and vice-versa). ARCL will be used to model both the stability of height and weight over time (autoregressive paths) and the potential cross-lagged influences between consecutive measurements of these two constructs.
+This example will examine the height and weight across 3 annual measurement occasions in a sample of youth taking part in the ABCD Study®. The primary aim is to explore the reciprocal relationships between height and weight at different time points, analyzing how height at one time point predicts weight at future time points (and vice-versa). ARCL will be used to model both the stability of height and weight over time (autoregressive paths) and the potential cross-lagged influences between consecutive measurements of these two constructs.
 
 ## Preliminary Setup
 ### Load R libraries
