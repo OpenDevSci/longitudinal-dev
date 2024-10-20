@@ -14,12 +14,30 @@ definePageMeta({ documentDriven: { page: false } });
       <h2 class="text-2xl font-semibold mb-4 text-gray-200">Our Mission</h2>
       <p class="text-gray-100 leading-relaxed">
         Longitudinal.dev is a collaborative and community-driven hub of
-        resources for longitudinal data science. Whether you’re just starting or
-        seeking to expand your expertise, you’ll find tutorials, open-source
-        tools, code examples, and documentation that may be useful at different
-        stages of research. The platform is fully open source—- feel free to
-        explore and see if you find something useful, or if you have something
-        to share or just want to get involved, take a look at our
+        resources for longitudinal data science, developed by members of the
+        <span class="relative font-bold text-primary">
+          <span class="absolute inset-0 -z-10 blur-sm text-nuxt-green">
+            ABCD Study® Biostatistics Working Group
+          </span>
+          ABCD Study® Biostatistics Working Group
+        </span>
+        as part of the accompanying manuscript,
+        <a
+          href="_blank"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-blue-500 hover:underline"
+        >
+          “Longitudinal Analysis of the ABCD Study®”.</a
+        >
+        <br />
+        <br />
+        Whether you’re just starting or seeking to expand your expertise, you’ll
+        find tutorials, open-source tools, code examples, and documentation that
+        may be useful at different stages of research. The platform is fully
+        open source—- feel free to explore and see if you find something useful,
+        or if you have something to share or just want to get involved, take a
+        look at our
         <a
           href="https://github.com/OpenDevSci/LongDev-ABCD/blob/main/docs/Contributing.md"
           target="_blank"
@@ -28,6 +46,14 @@ definePageMeta({ documentDriven: { page: false } });
         >
           contribution guide </a
         >.
+      </p>
+      <br />
+      <p
+        class="border-l-4 border-nuxt-green pl-3 italic text-gray-700 dark:text-gray-300"
+      >
+        Please note that this project is not officially associated with or
+        endorsed by the ABCD Study®, and all opinions expressed within are
+        solely those of the project maintainers.
       </p>
     </section>
 
