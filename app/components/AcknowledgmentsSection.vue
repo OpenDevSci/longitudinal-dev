@@ -5,7 +5,14 @@
       <div class="labs-container">
         <div v-for="lab in labs" :key="lab.alt" class="lab-card">
           <a :href="lab.link" target="_blank">
-            <img :src="lab.logo" :alt="lab.alt" class="lab-logo" />
+            <img
+              :src="lab.logo"
+              :alt="lab.alt"
+              :class="[
+                'lab-logo',
+                lab.alt === 'ABCD Study® logo' ? 'large-logo' : '',
+              ]"
+            />
           </a>
           <h3>{{ lab.name }}</h3>
           <p>{{ lab.description }}</p>
@@ -42,7 +49,6 @@ const labs = [
     alt: "Waller Lab logo",
     link: "https://upennedenlab.com/",
   },
-  // Add more labs as needed
 ];
 </script>
 
@@ -75,22 +81,27 @@ const labs = [
   background-color: transparent;
   padding: 1.5rem;
   border-radius: 8px;
-  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .lab-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 15px rgba(2, 4, 32, 0.25); /* Subtle shadow with dark blue tint  */
-  background-color: rgba(128, 128, 128, 0.1); /* Dark blue spotlight effect */
+  box-shadow: 0 4px 15px rgba(2, 4, 32, 0.25);
+  background-color: rgba(128, 128, 128, 0.1);
 }
 
 .lab-logo {
-  width: 100px; /* Set a fixed width */
-  height: 100px; /* Set a fixed height */
-  object-fit: contain; /* Ensures the logo scales while maintaining aspect ratio */
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
   margin: 0;
   transition: opacity 0.3s ease;
+}
+
+/* Additional styling for larger logo */
+.large-logo {
+  width: 150px; /* Increase the width */
+  height: 150px; /* Increase the height */
 }
 
 .lab-logo:hover {
