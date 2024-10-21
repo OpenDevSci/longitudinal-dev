@@ -47,7 +47,7 @@ export default defineNuxtConfig({
   // },
 
   app: {
-    baseURL: process.env.NUXT_APP_BASE_URL || '/longitudinal-dev/', // Set this to your GitHub repo slug
+    baseURL: process.env.NUXT_APP_BASE_URL || '/', // Set this to your GitHub repo slug
     trailingSlash: true // Ensure URLs maintain consistency with or without a trailing slash
   },
 
