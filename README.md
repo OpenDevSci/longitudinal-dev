@@ -82,11 +82,11 @@ Contributions are what make the open-source community such an amazing place to l
 
 Your contributions make a difference. Whether you're looking for help, offering suggestions, or have questions, the community is here for you.
 
-- **Ask Questions or Start a Discussion**: Visit the [Discussion Forum](.github/discussions) to ask questions, share your findings, or start a conversation on research methods and analysis.
+- **Ask Questions or Start a Discussion**: Visit the [Discussion Forum](.github/Discussions.md) to ask questions, share your findings, or start a conversation on research methods and analysis.
 
-- **Report and Solve Issues**: If you come across a problem or have an idea to share, head over to our [Issues Tracker](.github/issues). Here, you can see what we’re currently working on, report new issues, or help us improve the project.
+- **Report and Solve Issues**: If you come across a problem or have an idea to share, head over to our [Issues Tracker](.github/Issues.md). Here, you can see what we’re currently working on, report new issues, or help us improve the project.
 
-Need help getting started? Our [Discussion](.github/Discussion.md) and [Issues](.github/Issues.md) guides provide all the information you need to use these resources effectively.
+Need help getting started? Our [Discussion](.github/Discussions.md) and [Issues](.github/Issues.md) guides provide all the information you need to use these resources effectively.
 
 ## 🚀 Codespace
 
@@ -95,7 +95,7 @@ Need help getting started? Our [Discussion](.github/Discussion.md) and [Issues](
 📘 For detailed instructions and how to utilize Codespaces for our project, dive into our [**Codespaces Guide**](.github/Codespaces.md).
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](.github/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](.github/LICENSE.md) file for details.
 
 ## Contact
 For general queries or direct contributions, join our Slack channel: Join Slack
