@@ -118,7 +118,7 @@ const books = ref([
     author: "Hadley Wickham & Garrett Grolemund",
     description:
       "This book will teach you how to do data science with R, covering the entire data analysis workflow.",
-    image: "/longit/images/r-for-data-science-cover.jpg",
+    image: "/LongDev-ABCD/images/r-for-data-science-cover.jpg",
     link: "https://r4ds.hadley.nz/",
   },
   {
