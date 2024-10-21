@@ -10,7 +10,7 @@ export default defineAppConfig({
     }
   },
   seo: {
-    siteName: 'Nuxt UI Pro - Docs template'
+    siteName: 'Longitudinal Data Science'
   },
   header: {
     logo: {
@@ -43,28 +43,18 @@ export default defineAppConfig({
       'icon': 'i-simple-icons-github',
       'to': 'https://github.com/OpenDevSci/longitudinal-dev',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'Longitudianl.dev on GitHub'
     }]
   },
   toc: {
     title: 'Table of Contents',
     bottom: {
       title: 'Community',
-      edit: 'https://github.com/nuxt-ui-pro/docs/edit/main/content',
+      edit: 'https://github.com/OpenDevSci/longitudinal-dev/pulls',
       links: [{
         icon: 'i-heroicons-star',
         label: 'Star on GitHub',
-        to: 'https://github.com/nuxt/ui',
-        target: '_blank'
-      }, {
-        icon: 'i-heroicons-book-open',
-        label: 'Nuxt UI Pro docs',
-        to: 'https://ui.nuxt.com/pro/guide',
-        target: '_blank'
-      }, {
-        icon: 'i-simple-icons-nuxtdotjs',
-        label: 'Purchase a license',
-        to: 'https://ui.nuxt.com/pro/purchase',
+        to: 'https://github.com/OpenDevSci/longitudinal-dev',
         target: '_blank'
       }]
     }

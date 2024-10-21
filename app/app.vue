@@ -23,8 +23,6 @@ useSeoMeta({
   titleTemplate: `%s - ${seo?.siteName}`,
   ogSiteName: seo?.siteName,
   ogImage: "https://docs-template.nuxt.dev/social-card.png",
-  twitterImage: "https://docs-template.nuxt.dev/social-card.png",
-  twitterCard: "summary_large_image",
 });
 
 provide("navigation", navigation);
@@ -38,14 +36,14 @@ provide("navigation", navigation);
 
     <UMain>
       <div class="relative group flex mt-5 justify-center items-center">
-      <!-- Icon (FontAwesome) -->
-      <i class="fas fa-exclamation-triangle text-4xl text-yellow-500" />
+        <!-- Icon (FontAwesome) -->
+        <i class="fas fa-exclamation-triangle text-4xl text-yellow-500" />
 
-      <!-- Hover Text -->
-      <div class="bg-gray-800 text-white mt-5 text-sm py-1 px-2 rounded">
-        Site under development, current content may not be accurate
+        <!-- Hover Text -->
+        <div class="bg-gray-800 text-white mt-5 text-sm py-1 px-2 rounded">
+          Site under development, current content may not be accurate
+        </div>
       </div>
-    </div>
       <NuxtLayout>
         <NuxtPage />
       </NuxtLayout>

@@ -23,7 +23,7 @@ definePageMeta({ documentDriven: { page: false } });
         </span>
         as part of the accompanying manuscript,
         <a
-          href="_blank"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           class="text-blue-500 hover:underline"
