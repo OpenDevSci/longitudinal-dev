@@ -31,9 +31,9 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: [
-        '/' // Home page
-        // '/abcd-study/',
-        // '/abcd-study'
+        '/', // Home page
+        '/abcd-study/',
+        '/abcd-study'
       ],
       crawlLinks: true, // Enable crawling to find more links automatically
       ignore: []
