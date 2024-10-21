@@ -118,7 +118,7 @@ const books = ref([
     author: "Hadley Wickham & Garrett Grolemund",
     description:
       "This book will teach you how to do data science with R, covering the entire data analysis workflow.",
-    image: "/LongDev-ABCD/images/r-for-data-science-cover.jpg",
+    image: "/images/r-for-data-science-cover.jpg",
     link: "https://r4ds.hadley.nz/",
   },
   {
@@ -126,7 +126,7 @@ const books = ref([
     author: "Hadley Wickham",
     description:
       "A deep dive into the R language, helping you understand R's data structures and programming paradigms.",
-    image: "/longit//images/advanced-r.png",
+    image: "/images/advanced-r.png",
     link: "https://adv-r.hadley.nz/",
   },
   {
@@ -134,7 +134,7 @@ const books = ref([
     author: "Colin Gillespie & Robin Lovelace",
     description:
       "This book provides tools and techniques to make your R code more efficient.",
-    image: "/longit//images/efficient-r-programming.png",
+    image: "/images/efficient-r-programming.png",
     link: "https://csgillespie.github.io/efficientR/",
   },
   {
@@ -142,7 +142,7 @@ const books = ref([
     author: "Roger D. Peng",
     description:
       "A comprehensive introduction to R programming for data science, covering fundamental concepts and techniques.",
-    image: "/longit//images/r-programming-for-data-science.png",
+    image: "/images/r-programming-for-data-science.png",
     link: "https://bookdown.org/rdpeng/RProgDA/",
   },
   {
@@ -158,7 +158,7 @@ const books = ref([
     author: "Patrick Burns",
     description:
       "A guide to the pitfalls of R, providing insights into common errors and how to avoid them.",
-    image: "/longit//images/r-inferno.jpg",
+    image: "/images/r-inferno.jpg",
     link: "http://www.burns-stat.com/pages/Tutor/R_inferno.pdf",
   },
   {
@@ -166,7 +166,7 @@ const books = ref([
     author: "John M. Chambers",
     description:
       "This book covers software development for data analysis, with a focus on R and its applications.",
-    image: "/longit//images/software-for-data-analysis-with-r.jpg",
+    image: "/images/software-for-data-analysis-with-r.jpg",
     link: "https://bookdown.org/rdpeng/RProgDA/",
   },
   {
@@ -174,7 +174,7 @@ const books = ref([
     author: "Nathaniel D. Phillips",
     description:
       "A fun and accessible introduction to R, presented in a pirate-themed format to engage readers.",
-    image: "/longit//images/yarrr-the-pirates-guide-to-r.jpeg",
+    image: "/images/yarrr-the-pirates-guide-to-r.jpeg",
     link: "https://bookdown.org/ndphillips/YaRrr/",
   },
   {
@@ -182,7 +182,7 @@ const books = ref([
     author: "Norman Matloff",
     description:
       "This book provides a comprehensive guide to R programming, covering everything from basic concepts to advanced techniques.",
-    image: "/longit//images/the-art-of-r-programming.jpg",
+    image: "/images/the-art-of-r-programming.jpg",
     link: "https://web.cs.ucdavis.edu/~matloff/matloff/public_html/145/PLN/RMaterials/NSPpart.pdf",
   },
   {
@@ -190,7 +190,7 @@ const books = ref([
     author: "Roger D. Peng",
     description:
       "An in-depth exploration of R programming, focusing on advanced topics and techniques.",
-    image: "/longit//images/deep-r-programming.png",
+    image: "/images/deep-r-programming.png",
     link: "https://deepr.gagolewski.com/",
   },
 ]);
