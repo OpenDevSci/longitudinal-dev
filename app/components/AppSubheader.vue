@@ -15,39 +15,46 @@
     >
       <ul class="flex flex-nowrap space-x-4">
         <li>
-          <a
-            href="/tutorials/longitudinal-analyses-models/growth-curve-models/latent_growth_curve_models_tutorial"
+          <NuxtLink
+            to="/tutorials/longitudinal-analyses-models/growth-curve-models/latent_growth_curve_models_tutorial"
             class="text-white hover:text-gray-300 whitespace-nowrap"
-            >Growth Curves</a
           >
+            Growth Curves
+          </NuxtLink>
         </li>
         <li>
-          <a href="#" class="text-white hover:text-gray-300 whitespace-nowrap"
-            >Cheat Sheets</a
+          <NuxtLink
+            to="/resources"
+            class="text-white hover:text-gray-300 whitespace-nowrap"
           >
+            Cheat Sheets
+          </NuxtLink>
         </li>
         <li>
-          <a
-            href="/tutorials/longitudinal-analyses-models/mixed-effects-and-multilevel/linear-mixedeffects-models"
+          <NuxtLink
+            to="/tutorials/longitudinal-analyses-models/mixed-effects-and-multilevel/linear-mixedeffects-models"
             class="text-white hover:text-gray-300 whitespace-nowrap"
-            >Linear Mixed Models</a
           >
+            Linear Mixed Models
+          </NuxtLink>
         </li>
         <li>
-          <a
-            href="/tools#ides"
+          <NuxtLink
+            to="/tools#ides"
             class="text-white hover:text-gray-300 whitespace-nowrap"
-            >IDEs</a
           >
+            IDEs
+          </NuxtLink>
         </li>
         <AppDropdown>
           <template #link>
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="/tutorials/data-wrangling/cleaning-and-transforming-data"
                 class="text-white hover:text-gray-300 whitespace-nowrap"
-                >Data Wrangling</a
               >
+                Data Wrangling
+              </NuxtLink>
             </li>
           </template>
           <template #dropdown>
@@ -79,11 +86,12 @@
         <AppDropdown>
           <template #link>
             <li>
-              <a
-                href="/tools#programming-languages"
+              <NuxtLink
+                to="/resources"
                 class="text-white hover:text-gray-300 whitespace-nowrap"
-                >Programming Languages</a
               >
+                Programming Languages
+              </NuxtLink>
             </li>
           </template>
           <template #dropdown>
@@ -120,44 +128,52 @@
           </template>
         </AppDropdown>
         <li>
-          <a href="#" class="text-white hover:text-gray-300 whitespace-nowrap"
-            >Workshops</a
+          <NuxtLink
+            to="/resources"
+            class="text-white hover:text-gray-300 whitespace-nowrap"
           >
+            Workshops
+          </NuxtLink>
         </li>
         <li>
-          <a
-            href="/abcd-study"
+          <NuxtLink
+            to="/abcd-study"
             class="text-white hover:text-gray-300 whitespace-nowrap"
-            >Tutorials</a
           >
+            ABCD Study
+          </NuxtLink>
         </li>
         <li>
-          <a
-            href="/tutorials"
+          <NuxtLink
+            to="/tutorials"
             class="text-white hover:text-gray-300 whitespace-nowrap"
-            >Tutorials</a
           >
+            Tutorials
+          </NuxtLink>
         </li>
         <li>
-          <a
-            href="/tutorials/data-visualization/viz_customizing-plots-ggplot2"
+          <NuxtLink
+            to="/tutorials/data-visualization/viz_customizing-plots-ggplot2"
             class="text-white hover:text-gray-300 whitespace-nowrap"
-            >Visualizations</a
           >
+            Visualizations
+          </NuxtLink>
         </li>
         <li>
-          <a
-            href="/tools#notebooks"
+          <NuxtLink
+            to="/tools#notebooks"
             class="text-white hover:text-gray-300 whitespace-nowrap"
-            >Quarto</a
           >
+            Quarto
+          </NuxtLink>
         </li>
         <li>
-          <a
-            href="/tools#data-formats"
+          <NuxtLink
+            to="/tools#data-formats"
             class="text-white hover:text-gray-300 whitespace-nowrap"
-            >Markdown</a
           >
+            Markdown
+          </NuxtLink>
         </li>
         <li>
           <a href="#" class="text-white hover:text-gray-300 whitespace-nowrap"
@@ -184,13 +200,13 @@
           >
         </li>
         <li>
-          <a
-            href="/playground"
+          <NuxtLink
+            to="/playground"
             class="text-white hover:text-gray-300 whitespace-nowrap"
-            >Playground</a
           >
+            Playground
+          </NuxtLink>
         </li>
-        <!-- Add more links as needed -->
       </ul>
     </div>
 
