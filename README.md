@@ -5,18 +5,18 @@
 
 <a name="readme-top"></a>
 
-[![](https://github.com/codespaces/badge.svg)](https://codespaces.new/openresearchcollabs/LAP-ABCD?quickstart=1)
+[![](https://github.com/codespaces/badge.svg)](https://codespaces.new/openresearchcollabs/longitudinal-dev?quickstart=1)
 
 <p align="center">
   <a href="https://github.com/OpenDevSci/longitudinal-dev">
-    <img src="/images/logo" alt="Logo" width="200" height="200"/>
+    <img src="/logo.svg" alt="Logo" width="200" height="200"/>
   </a>
 </p>
 
-<h1 align="center">Longitudinal Analysis Portal (LAP) for ABCD Study®</h1>
+<h1 align="center">Longitudinal Data Science Platform</h1>
 
 <p align="center">
-  <strong>Empowering Longitudinal Analysis through Open Collaboration.</strong>
+  <strong>Empowering Longitudinal Data Science through Open Collaboration.</strong>
   <br />
   A hub for learning, sharing, and implementing longitudinal analysis methods using data from the Adolescent Brain and Cognitive Development (ABCD) Study.
   <br />
@@ -68,7 +68,7 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repo
    ```sh
    git clone https://github.com/OpenDevSci/longitudinal-dev.git
-   cd LAP-ABCD
+   cd longitudinal-dev
    ```
 
 [Additional steps specific to the project]
