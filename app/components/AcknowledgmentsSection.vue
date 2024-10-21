@@ -28,14 +28,19 @@ const labs = [
     link: "https://sunlab.fiu.edu/",
   },
   {
-    logo: "images/wallerlab-logo.png",
-    alt: "Waller Lab logo",
-    link: "https://upennedenlab.com/",
+    logo: "images/nikmabcd-logo.png",
+    alt: "Now I Know My ABCD logo",
+    link: "https://now-i-know-my-abcd.github.io/docs/intro.html#",
   },
   {
     logo: "images/ccf-logo.jpg",
     alt: "CCF logo",
     link: "https://ccf.fiu.edu/",
+  },
+  {
+    logo: "images/wallerlab-logo.png",
+    alt: "Waller Lab logo",
+    link: "https://upennedenlab.com/",
   },
   // Add more labs as needed
 ];
