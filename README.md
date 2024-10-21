@@ -5,7 +5,7 @@
 
 <a name="readme-top"></a>
 
-[![](https://github.com/codespaces/badge.svg)](https://codespaces.new/openresearchcollabs/longitudinal-dev?quickstart=1)
+[![](https://github.com/codespaces/badge.svg)](https://codespaces.new/opendevsci/longitudinal-dev?quickstart=1)
 
 <p align="center">
   <a href="https://github.com/OpenDevSci/longitudinal-dev">
@@ -22,8 +22,8 @@
   <br />
   <a href="https://github.com/OpenDevSci/longitudinal-dev"><strong>Explore the Documentation »</strong></a>
   <br />
-  <a href="https://github.com/OpenDevSci/longitudinal-dev/issues">Report Bug</a> •
-  <a href="https://github.com/OpenDevSci/longitudinal-dev/issues">Request Feature</a>
+  <a href="https://github.com/OpenDevSci/longitudinal-dev/.github/issues">Report Bug</a> •
+  <a href="https://github.com/OpenDevSci/longitudinal-dev/.github/issues">Request Feature</a>
 </p>
 
 <p align="center">
@@ -50,7 +50,7 @@ tags: Longitudinal Analysis, ABCD Study®, Biostatistics, Open Science, R Progra
 
 ## About the Project
 
-This repository is intended to serve as an open-source hub designed to foster collaboration, learning, and application of longitudinal analysis methods. This project, underpinned by data from the ABCD Study®, aims to bridge the gap between statistical methods and their practical implementation. A primary aim is to enable researchers and students alike to access, contribute to, and learn from a rich repository of knowledge and code.
+This repository is intended to serve as an open-source hub designed to foster collaboration, learning, and application of longitudinal data science. This project, underpinned by data from the ABCD Study®, aims to bridge the gap between statistical methods and their practical implementation. A primary aim is to enable researchers and students alike to access, contribute to, and learn from a rich repository of knowledge and code.
 
 ## Features
 
@@ -74,7 +74,7 @@ To get a local copy up and running follow these simple steps.
 [Additional steps specific to the project]
 
 ## Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. Check out our [Contribution Guide](docs/Contributing.md) for more information on how to get started.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. Check out our [Contribution Guide](.github/Contributing.md) for more information on how to get started.
 
 ## Discussion & Issues
 
@@ -82,20 +82,20 @@ Contributions are what make the open-source community such an amazing place to l
 
 Your contributions make a difference. Whether you're looking for help, offering suggestions, or have questions, the community is here for you.
 
-- **Ask Questions or Start a Discussion**: Visit the [Discussion Forum](https://github.com/OpenDevSci/longitudinal-dev/discussions) to ask questions, share your findings, or start a conversation on research methods and analysis.
+- **Ask Questions or Start a Discussion**: Visit the [Discussion Forum](https://github.com/OpenDevSci/longitudinal-dev/.github/discussions) to ask questions, share your findings, or start a conversation on research methods and analysis.
 
-- **Report and Solve Issues**: If you come across a problem or have an idea to share, head over to our [Issues Tracker](https://github.com/OpenDevSci/longitudinal-dev/issues). Here, you can see what we’re currently working on, report new issues, or help us improve the project.
+- **Report and Solve Issues**: If you come across a problem or have an idea to share, head over to our [Issues Tracker](https://github.com/OpenDevSci/longitudinal-dev/.github/issues). Here, you can see what we’re currently working on, report new issues, or help us improve the project.
 
-Need help getting started? Our [Discussion](docs/Discussion.md) and [Issues](docs/Issues.md) guides provide all the information you need to use these resources effectively.
+Need help getting started? Our [Discussion](.github/Discussion.md) and [Issues](.github/Issues.md) guides provide all the information you need to use these resources effectively.
 
 ## 🚀 Codespace
 
-**Quickly prepare your development environment** with LONGDEV-ABCD Codespaces. Whether you're contributing from afar or simply want to streamline your setup, our Codespaces have you covered. 
+**Quickly prepare your development environment** with longitudinal.dev Codespaces. Whether you're contributing from afar or simply want to streamline your setup, our Codespaces have you covered. 
 
-📘 For detailed instructions and how to utilize Codespaces for our project, dive into our [**Codespaces Guide**](docs/Codespaces.md).
+📘 For detailed instructions and how to utilize Codespaces for our project, dive into our [**Codespaces Guide**](.github/Codespaces.md).
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](docs/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](.github/LICENSE) file for details.
 
 ## Contact
 For general queries or direct contributions, join our Slack channel: Join Slack
@@ -113,9 +113,9 @@ Add additional acknowledgements.
 
 ```markdown
 <p align="center">
-  <a href="https://github.com/OpenDevSci/longitudinal-dev/issues/new?assignees=&labels=bug&template=bug_report.md">Report Bug</a> •
-  <a href="https://github.com/OpenDevSci/longitudinal-dev/issues/new?assignees=&labels=enhancement&template=feature_request.md">Request Feature</a> •
-  <a href="/docs/Contributing.md">Contribute</a>
+  <a href="https://github.com/OpenDevSci/longitudinal-dev/.github/issues/new?assignees=&labels=bug&template=bug_report.md">Report Bug</a> •
+  <a href="https://github.com/OpenDevSci/longitudinal-dev/.github/issues/new?assignees=&labels=enhancement&template=feature_request.md">Request Feature</a> •
+  <a href=".github/Contributing.md">Contribute</a>
 </p>
 
 
