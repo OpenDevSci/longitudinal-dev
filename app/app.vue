@@ -40,7 +40,7 @@ provide("navigation", navigation);
         <i class="fas fa-exclamation-triangle text-4xl text-yellow-500" />
 
         <!-- Hover Text -->
-        <div class="bg-gray-800 text-white mt-5 text-sm py-1 px-2 rounded">
+        <div class="bg-gray-800 text-white mt-5 text-sm py-1 px-1 rounded">
           Site under development, current content may not be accurate
         </div>
       </div>

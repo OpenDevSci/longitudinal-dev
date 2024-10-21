@@ -4,9 +4,10 @@
 
 /* Custom styles to reduce spacing */
 .reduce-spacing {
-  padding-top: 2rem !important; /* Adjust as needed */
+  padding-top: 1rem !important; /* Adjust as needed */
   padding-bottom: 12rem !important; /* Adjust as needed */
 }
+
 /* Custom styling for the hero section */
 .hero-custom {
   color: #ffffff; /* White color */

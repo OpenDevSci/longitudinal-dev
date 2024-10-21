@@ -140,7 +140,7 @@
             to="/abcd-study"
             class="text-white hover:text-gray-300 whitespace-nowrap"
           >
-            ABCD Study
+            ABCD Study®
           </NuxtLink>
         </li>
         <li>
