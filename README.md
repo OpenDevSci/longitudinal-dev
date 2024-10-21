@@ -22,8 +22,8 @@
   <br />
   <a href="https://github.com/OpenDevSci/longitudinal-dev"><strong>Explore the Documentation »</strong></a>
   <br />
-  <a href="https://github.com/OpenDevSci/longitudinal-dev/.github/issues">Report Bug</a> •
-  <a href="https://github.com/OpenDevSci/longitudinal-dev/.github/issues">Request Feature</a>
+  <a href=".github/issues">Report Bug</a> •
+  <a href=".github/issues">Request Feature</a>
 </p>
 
 <p align="center">
@@ -82,9 +82,9 @@ Contributions are what make the open-source community such an amazing place to l
 
 Your contributions make a difference. Whether you're looking for help, offering suggestions, or have questions, the community is here for you.
 
-- **Ask Questions or Start a Discussion**: Visit the [Discussion Forum](https://github.com/OpenDevSci/longitudinal-dev/.github/discussions) to ask questions, share your findings, or start a conversation on research methods and analysis.
+- **Ask Questions or Start a Discussion**: Visit the [Discussion Forum](.github/discussions) to ask questions, share your findings, or start a conversation on research methods and analysis.
 
-- **Report and Solve Issues**: If you come across a problem or have an idea to share, head over to our [Issues Tracker](https://github.com/OpenDevSci/longitudinal-dev/.github/issues). Here, you can see what we’re currently working on, report new issues, or help us improve the project.
+- **Report and Solve Issues**: If you come across a problem or have an idea to share, head over to our [Issues Tracker](.github/issues). Here, you can see what we’re currently working on, report new issues, or help us improve the project.
 
 Need help getting started? Our [Discussion](.github/Discussion.md) and [Issues](.github/Issues.md) guides provide all the information you need to use these resources effectively.
 
@@ -113,8 +113,8 @@ Add additional acknowledgements.
 
 ```markdown
 <p align="center">
-  <a href="https://github.com/OpenDevSci/longitudinal-dev/.github/issues/new?assignees=&labels=bug&template=bug_report.md">Report Bug</a> •
-  <a href="https://github.com/OpenDevSci/longitudinal-dev/.github/issues/new?assignees=&labels=enhancement&template=feature_request.md">Request Feature</a> •
+  <a href=".github/issues/new?assignees=&labels=bug&template=bug_report.md">Report Bug</a> •
+  <a href=".github/issues/new?assignees=&labels=enhancement&template=feature_request.md">Request Feature</a> •
   <a href=".github/Contributing.md">Contribute</a>
 </p>
 

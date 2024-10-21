@@ -1,4 +1,4 @@
-# Contributing to LongDev-ABCD 🌟
+# Contributing to longitudinal.dev 🌟
 
 Welcome to the longitudinal-dev contributing guide! We're thrilled to have you join our community of researchers, developers, and contributors. This comprehensive guide outlines how you can contribute to the project, with a special focus on our collaborative workflow inspired by the [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow).
 
@@ -66,7 +66,7 @@ Remember, pull requests are a great way to get feedback and make your contributi
 For those not a repository member:
 External contributors should start by forking the repository. This creates a copy of the repository in your own GitHub account, allowing you to make changes without affecting the main project until your contributions are reviewed and accepted.
 
-1. **Fork the Repository**: Visit the [LongDev-ABCD repository](https://github.com/OpenDevSci/longitudinal-dev) on GitHub and click the "Fork" button at the top right corner.
+1. **Fork the Repository**: Visit the [longitudinal.dev repository](https://github.com/OpenDevSci/longitudinal-dev) on GitHub and click the "Fork" button at the top right corner.
 2. **Clone Your Fork**: Clone the forked repository to your local machine.
 
 ```bash
@@ -103,7 +103,7 @@ For more details on making contributions, including committing changes and openi
 
 ## Understanding GitHub Flow 🔄
 
-GitHub Flow is a simple yet powerful branch-based workflow designed to support collaborative projects and regular deployments. At LongDev-ABCD, we embrace this workflow to streamline contributions, enhance code quality, and facilitate effective team collaboration. The process involves:
+GitHub Flow is a simple yet powerful branch-based workflow designed to support collaborative projects and regular deployments. At longitudinal.dev, we embrace this workflow to streamline contributions, enhance code quality, and facilitate effective team collaboration. The process involves:
 
 1. **Creating a branch** for new work, ensuring changes are organized and focused.
 2. **Adding commits** to record your progress and document changes.
