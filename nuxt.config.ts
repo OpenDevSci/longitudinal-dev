@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  target: 'static',
   extends: ['@nuxt/ui-pro'],
   components: true,
   modules: [
@@ -32,19 +33,18 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/', // Home page
-        '/abcd-study/',
-        '/abcd-study'
+        '/abcd-study/'
       ],
       crawlLinks: true, // Enable crawling to find more links automatically
       ignore: []
     }
   },
 
-  routeRules: {
-    '/api/search.json': { prerender: true },
-    '/abcd-study': { static: true }, // Force this route to be static to prevent dynamic hydration issues
-    '/tutorials': { static: true } // Same adjustment for related routes
-  },
+  // routeRules: {
+  //   '/api/search.json': { prerender: true },
+  //   '/abcd-study': { static: true }, // Force this route to be static to prevent dynamic hydration issues
+  //   '/tutorials': { static: true } // Same adjustment for related routes
+  // },
 
   app: {
     baseURL: process.env.NUXT_APP_BASE_URL || '/longitudinal-dev/', // Set this to your GitHub repo slug
