@@ -39,7 +39,7 @@ definePageMeta({ documentDriven: { page: false } });
         or if you have something to share or just want to get involved, take a
         look at our
         <a
-          href="https://github.com/OpenDevSci/LongDev-ABCD/blob/main/docs/Contributing.md"
+          href="https://github.com/OpenDevSci/longitudinal-dev/blob/main/docs/Contributing.md"
           target="_blank"
           rel="noopener noreferrer"
           class="text-blue-500 hover:underline"
@@ -119,7 +119,7 @@ definePageMeta({ documentDriven: { page: false } });
       </p>
       <div class="flex space-x-4">
         <a
-          href="https://github.com/OpenDevSci/LongDev-ABCD/blob/main/docs/Contributing.md"
+          href="https://github.com/OpenDevSci/longitudinal-dev/blob/main/docs/Contributing.md"
           target="_blank"
           class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-500 transition"
         >

@@ -8,8 +8,8 @@
 [![](https://github.com/codespaces/badge.svg)](https://codespaces.new/openresearchcollabs/LAP-ABCD?quickstart=1)
 
 <p align="center">
-  <a href="https://github.com/OpenDevSci/LongDev-ABCD">
-    <img src="img/lights.png" alt="Logo" width="200" height="200"/>
+  <a href="https://github.com/OpenDevSci/longitudinal-dev">
+    <img src="/images/logo" alt="Logo" width="200" height="200"/>
   </a>
 </p>
 
@@ -20,10 +20,10 @@
   <br />
   A hub for learning, sharing, and implementing longitudinal analysis methods using data from the Adolescent Brain and Cognitive Development (ABCD) Study.
   <br />
-  <a href="https://github.com/OpenDevSci/LongDev-ABCD"><strong>Explore the Documentation »</strong></a>
+  <a href="https://github.com/OpenDevSci/longitudinal-dev"><strong>Explore the Documentation »</strong></a>
   <br />
-  <a href="https://github.com/OpenDevSci/LongDev-ABCD/issues">Report Bug</a> •
-  <a href="https://github.com/OpenDevSci/LongDev-ABCD/issues">Request Feature</a>
+  <a href="https://github.com/OpenDevSci/longitudinal-dev/issues">Report Bug</a> •
+  <a href="https://github.com/OpenDevSci/longitudinal-dev/issues">Request Feature</a>
 </p>
 
 <p align="center">
@@ -67,7 +67,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/OpenDevSci/LongDev-ABCD.git
+   git clone https://github.com/OpenDevSci/longitudinal-dev.git
    cd LAP-ABCD
    ```
 
@@ -82,9 +82,9 @@ Contributions are what make the open-source community such an amazing place to l
 
 Your contributions make a difference. Whether you're looking for help, offering suggestions, or have questions, the community is here for you.
 
-- **Ask Questions or Start a Discussion**: Visit the [Discussion Forum](https://github.com/OpenDevSci/LongDev-ABCD/discussions) to ask questions, share your findings, or start a conversation on research methods and analysis.
+- **Ask Questions or Start a Discussion**: Visit the [Discussion Forum](https://github.com/OpenDevSci/longitudinal-dev/discussions) to ask questions, share your findings, or start a conversation on research methods and analysis.
 
-- **Report and Solve Issues**: If you come across a problem or have an idea to share, head over to our [Issues Tracker](https://github.com/OpenDevSci/LongDev-ABCD/issues). Here, you can see what we’re currently working on, report new issues, or help us improve the project.
+- **Report and Solve Issues**: If you come across a problem or have an idea to share, head over to our [Issues Tracker](https://github.com/OpenDevSci/longitudinal-dev/issues). Here, you can see what we’re currently working on, report new issues, or help us improve the project.
 
 Need help getting started? Our [Discussion](docs/Discussion.md) and [Issues](docs/Issues.md) guides provide all the information you need to use these resources effectively.
 
@@ -100,7 +100,7 @@ This project is licensed under the MIT License - see the [LICENSE](docs/LICENSE)
 ## Contact
 For general queries or direct contributions, join our Slack channel: Join Slack
 
-[Project Link](https://github.com/OpenDevSci/LongDev-ABCD)
+[Project Link](https://github.com/OpenDevSci/longitudinal-dev)
 
 ## Acknowledgments
 Thanks to all contributors and the ABCD Study® organizers.
@@ -113,8 +113,8 @@ Add additional acknowledgements.
 
 ```markdown
 <p align="center">
-  <a href="https://github.com/OpenDevSci/LongDev-ABCD/issues/new?assignees=&labels=bug&template=bug_report.md">Report Bug</a> •
-  <a href="https://github.com/OpenDevSci/LongDev-ABCD/issues/new?assignees=&labels=enhancement&template=feature_request.md">Request Feature</a> •
+  <a href="https://github.com/OpenDevSci/longitudinal-dev/issues/new?assignees=&labels=bug&template=bug_report.md">Report Bug</a> •
+  <a href="https://github.com/OpenDevSci/longitudinal-dev/issues/new?assignees=&labels=enhancement&template=feature_request.md">Request Feature</a> •
   <a href="/docs/Contributing.md">Contribute</a>
 </p>
 

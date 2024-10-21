@@ -194,7 +194,7 @@
         </li>
         <li>
           <a
-            href="https://github.com/OpenDevSci/LongDev-ABCD"
+            href="https://github.com/OpenDevSci/longitudinal-dev"
             class="text-white hover:text-gray-300 whitespace-nowrap"
             >Github</a
           >
