@@ -49,7 +49,7 @@ definePageMeta({ documentDriven: { page: false } });
       </p>
       <br />
       <p
-        class="border-l-4 border-nuxt-green pl-3 italic text-gray-700 dark:text-gray-300"
+        class="border-l-4 border-nuxt-green pl-3 italic text-gray-500 dark:text-gray-500"
       >
         Please note that this project is not officially associated with or
         endorsed by the ABCD Study®, and all opinions expressed within are

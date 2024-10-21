@@ -27,9 +27,9 @@ hero:
     library(tidyverse)
     library(glmmTMB)
 
-    data(your_data)
+    data(demo_data)
 
-    ggplot(your_data, aes(x = predictor_variable, y = response_variable)) +
+    ggplot(demo_data, aes(x = predictor_variable, y = response_variable)) +
     geom_point(color = "#3498db", size = 3) +
     geom_smooth(method = "lm", color = "#e74c3c", se = FALSE) +
     labs(
@@ -44,7 +44,7 @@ hero:
     response ~ 1 + predictor1 + predictor2 + factor(timepoint) + (1 + timepoint | group),
     family = truncated_genpois(link = "log"),
     ziformula = ~ 1 + predictor1 + predictor2 + factor(timepoint) + (1 + timepoint | group),
-    data = your_data,
+    data = demo_data,
     control = glmmTMBControl(parallel = 16)
     )
 
