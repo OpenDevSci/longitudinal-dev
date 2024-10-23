@@ -22,14 +22,24 @@ definePageMeta({ documentDriven: { page: false } });
           ABCD Study® Biostatistics Working Group
         </span>
         as part of the accompanying manuscript,
+        <br />
+
         <a
-          href="#"
+          href="/longitudinal_analysis_abcd.pdf"
           target="_blank"
           rel="noopener noreferrer"
           class="text-blue-500 hover:underline"
         >
           “Longitudinal Analysis of the ABCD Study®”.</a
         >
+        <a
+          href="/longitudinal_analysis_abcd.pdf"
+          target="_blank"
+          download="Longitudinal Analysis of the ABCD Study.pdf"
+          class="text-red-200 hover:text-red-500"
+        >
+          <i class="fas fa-file-pdf text-lg" />
+        </a>
         <br />
         <br />
         Whether you’re just starting or seeking to expand your expertise, you’ll
