@@ -61,7 +61,7 @@ features:
     - title: "Contribute"
       description: "How to contribute to the project."
       icon: "i-heroicons-information-circle-solid"
-      to: "https://github.com/OpenDevSci/longitudinal-dev/blob/main/docs/Contributing.md"
+      to: "https://github.com/OpenDevSci/longitudinal-dev/blob/main/.github/Contributing.md"
       target: "_self"
     - title: "ABCD Examples"
       description: "Code-driven examples using data from the ABCD Study®."
