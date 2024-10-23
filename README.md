@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://github.com/OpenDevSci/longitudinal-dev">
-    <img src="/logo.svg" alt="Logo" width="200" height="200"/>
+    <img src="/public/logo.svg" alt="Logo" width="200" height="200"/>
   </a>
 </p>
 
