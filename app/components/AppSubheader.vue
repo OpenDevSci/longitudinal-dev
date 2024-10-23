@@ -189,6 +189,7 @@
           <a
             href="https://longitudinaldev.slack.com"
             class="text-white hover:text-gray-300 whitespace-nowrap"
+            target="_blank"
             >Slack Channel</a
           >
         </li>
@@ -196,6 +197,7 @@
           <a
             href="https://github.com/OpenDevSci/longitudinal-dev"
             class="text-white hover:text-gray-300 whitespace-nowrap"
+            target="_blank"
             >Github</a
           >
         </li>
