@@ -159,7 +159,7 @@ const books = ref([
     description:
       "A guide to the pitfalls of R, providing insights into common errors and how to avoid them.",
     image: "/images/r-inferno.jpg",
-    link: "http://www.burns-stat.com/pages/Tutor/R_inferno.pdf",
+    link: "https://www.burns-stat.com/pages/Tutor/R_inferno.pdf",
   },
   {
     title: "Software for Data Analysis with R",

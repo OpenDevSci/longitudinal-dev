@@ -50,7 +50,7 @@
         <!-- Left Arrow -->
         <button class="scroll-button left-0" @click="scrollLeft">
           <svg
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -148,7 +148,7 @@
         <!-- Right Arrow -->
         <button class="scroll-button right-0" @click="scrollRight">
           <svg
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
