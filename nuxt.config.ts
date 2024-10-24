@@ -74,6 +74,7 @@ export default defineNuxtConfig({
   content: {
     documentDriven: true, // Ensuring document-driven mode is correctly enabled
     highlight: {
+      preload: ['json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'md', 'yaml', 'r', 'mdc'],
       langs: ['json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'md', 'yaml', 'r', 'mdc']
     }
   },
