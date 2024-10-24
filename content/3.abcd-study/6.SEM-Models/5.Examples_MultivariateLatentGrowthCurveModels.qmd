@@ -3,9 +3,16 @@ title: "Multivariate Latent Growth Curve Models"
 author: "Biostatistics Working Group"
 ---
 
-!!!!!!!!!!INCOMPLETE
+!!!!!!!!!! INCOMPLETE
 
-```{r}
+::code-group
+
+```r [setUp.r]
+This set of codeblocks are for solely for testing initial setup and can be ignored at present 
+```
+
+```r  [loadData.r]
+
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
 
@@ -85,6 +92,7 @@ df_long <- df_selected %>%
     filter(id %in% selected_ids)
 
 ```
+::
 
 ## Overview
 

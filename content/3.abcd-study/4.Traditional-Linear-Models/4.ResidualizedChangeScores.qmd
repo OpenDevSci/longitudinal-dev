@@ -4,37 +4,13 @@ author: "Biostatistics Working Group"
 ---
 
 
+::code-group
 
+```r [setUp.r]
+This set of codeblocks are for solely for testing initial setup and can be ignored at present 
+```
 
-::tabs
-  ::div
-  ---
-  label: Code
-  icon: i-heroicons-code-bracket-square
-  ---
-
-  ```mdc
-  ::callout
-  Lorem velit voluptate ex reprehenderit ullamco et culpa.
-  ::
-  ```
-  ::
-
-  ::div
-  ---
-  label: Preview
-  icon: i-heroicons-magnifying-glass-circle
-  ---
-
-  ::callout
-  Lorem velit voluptate ex reprehenderit ullamco et culpa.
-  ::
-  ::
-::
-
-
-
-```r  [codeBlock.r]
+```r  [knitR.r]
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
 
@@ -49,7 +25,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-```r  [codeBlock.r]
+```r  [loadData.r]
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
 #| cache: FALSE
@@ -88,6 +64,7 @@ df_long <- df %>%
     )
 
 ```
+::
 
 ## Overview
 A residualized change score is a statistical approach used to account for the baseline (initial) values of a variable when measuring across two time points. First, a linear regression is conducted with the follow-up score predicted by the baseline score. The residual values from this model can be interpreted as change scores that have been adjusted for the baseline values. In a next step, regression analysis can be applied to determine whether a variable of interest predicts the residualized change score.

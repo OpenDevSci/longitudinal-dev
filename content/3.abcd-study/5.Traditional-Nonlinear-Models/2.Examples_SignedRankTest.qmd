@@ -3,7 +3,13 @@ title: "Signed-Rank Test"
 author: "Biostatistics Working Group"
 ---
 
-```r  [codeBlock.r]
+::code-group
+
+```r [setUp.r]
+This set of codeblocks are for solely for testing initial setup and can be ignored at present 
+```
+
+```r  [knitR.r]
 #| echo: FALSE # The content of this code block will not be rendered
 #| output: FALSE # Output from this code block will not be rendered
 
@@ -18,7 +24,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-```r  [codeBlock.r]
+```r  [loadData.r]
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
 #| cache: FALSE
@@ -56,6 +62,7 @@ df_long <- df_long %>%
     ungroup()
 
 ```
+::
 
 ## Overview
 The Signed Rank-Sum test is a non-parametric method used to compare paired samples or repeated measures. Unlike traditional parametric tests, it does not assume normality and is particularly useful when dealing with skewed distributions or ordinal data. This method extends the Wilcoxon signed rank-sum test to handle multiple measurements over time, making it suitable for longitudinal data analysis.

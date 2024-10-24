@@ -1,10 +1,15 @@
-
 ---
 title: "Generalized Linear Mixed Effects Models"
 author: "Biostatistics Working Group"
 ---
 
-```r  [codeBlock.r]
+::code-group
+
+```r [setUp.r]
+This set of codeblocks are for solely for testing initial setup and can be ignored at present 
+```
+
+```r  [knitR.r]
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
 
@@ -17,7 +22,7 @@ knitr::opts_chunk$set(echo = T, message=F, warning=F, error=F, output=T,
                       out.width='75%', fig.asp=.75)
 ```
 
-```r  [codeBlock.r]
+```r  [loadData.r]
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
 #| cache: FALSE
@@ -62,6 +67,7 @@ df_long <- df_long %>%
     ungroup()
 
 ```
+::
 
 ## Overview
 Generalized Linear Mixed Models (GLMMs) extend generalized linear models to include both fixed and random effects, allowing for the analysis of non-normal response variables and accounting for the correlation within clustered or repeated measures data. GLMMs are particularly useful when dealing with hierarchical data structures, offering a flexible framework to model various types of response distributions.

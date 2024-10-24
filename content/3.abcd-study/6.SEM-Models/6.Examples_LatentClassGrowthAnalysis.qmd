@@ -5,9 +5,13 @@ author: "Biostatistics Working Group"
 
 !!!!!!!!!!INCOMPLETE
 
-# removed duplicate family members
-# accounted for clustering (e.g., by site) in the model
-```{r}
+::code-group
+
+```r [setUp.r]
+This set of codeblocks are for solely for testing initial setup and can be ignored at present 
+```
+
+```r  [loadData.r]
 
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
@@ -90,6 +94,7 @@ df_long <- df_selected %>%
   filter(id %in% selected_ids)
 
 ```
+::
 
 ## Overview
 

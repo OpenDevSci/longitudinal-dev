@@ -3,7 +3,13 @@ title: "Latent Growth Curve Models"
 author: "Biostatistics Working Group"
 ---
 
-```r  [codeBlock.r]
+::code-group
+
+```r [setUp.r]
+This set of codeblocks are for solely for testing initial setup and can be ignored at present 
+```
+
+```r  [loadData.r]
 
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
@@ -82,6 +88,7 @@ df_long <- df_selected %>%
     filter(id %in% selected_ids)
 
 ```
+::
 
 ## Overview
 Latent growth curve models (LGCM) are an analytical tool within the framework of structural equation modeling that enable the examination of change over time. This model type effectively separates the true trajectory of a variable from random measurement error, allowing for the estimation of an underlying growth process. The primary components of LGCM include the intercept, which represents the initial status, and the slope, which reflects the rate of change over time.

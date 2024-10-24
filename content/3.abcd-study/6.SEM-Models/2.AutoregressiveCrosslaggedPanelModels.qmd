@@ -3,7 +3,13 @@ title: "Autoregressive Crosslagged Panel Models"
 author: "Biostatistics Working Group"
 ---
 
-```r  [codeBlock.r]
+::code-group
+
+```r [setUp.r]
+This set of codeblocks are for solely for testing initial setup and can be ignored at present 
+```
+
+```r  [knitr.r]
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
 
@@ -18,7 +24,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-```r  [codeBlock.r]
+```r  [loadData.r]
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
 #| cache: FALSE
@@ -58,6 +64,7 @@ df_long <- df_long %>%
     ungroup()
 
 ```
+::
 
 ## Overview
 Autoregressive Cross-Lagged Panel Analysis (ARCL) is a statistical technique used to examine the reciprocal relationships between variables over time. This method incorporates both autoregressive paths, which account for the stability of each variable across time points, and cross-lagged paths, which assess the influence of one variable on another over subsequent time points.

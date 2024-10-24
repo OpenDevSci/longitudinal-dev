@@ -3,7 +3,13 @@ title: "Linear Mixed Models: Random Intercept"
 author: "Biostatistics Working Group"
 ---
 
-```r  [codeBlock.r]
+::code-group
+
+```r [setUp.r]
+This set of codeblocks are for solely for testing initial setup and can be ignored at present 
+```
+
+```r  [knitR.r]
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
 
@@ -18,7 +24,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-```r  [codeBlock.r]
+```r  [loadData.r]
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
 #| cache: FALSE
@@ -51,6 +57,8 @@ df_long <- df %>%
     )
 
 ```
+
+::
 
 ## Overview
 The Linear mixed model (LMM) with a random intercept is similar to traditional (fixed-effect) linear regression, extending on this approach by including a subject-specific random-effect that allows each participant to have their own unique intercept value, in addition to the overall mean-level (fixed-effect) intercept value.

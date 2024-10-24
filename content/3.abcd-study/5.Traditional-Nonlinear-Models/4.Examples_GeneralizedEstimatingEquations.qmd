@@ -3,7 +3,13 @@ title: "Generalized Estimating Equations"
 author: "Biostatistics Working Group"
 ---
 
-```r  [codeBlock.r]
+::code-group
+
+```r [setUp.r]
+This set of codeblocks are for solely for testing initial setup and can be ignored at present 
+```
+
+```r  [knitR.r]
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
 
@@ -16,7 +22,7 @@ knitr::opts_chunk$set(echo = T, message=F, warning=F, error=F, output=T,
                       out.width='75%', fig.asp=.75)
 ```
 
-```r  [codeBlock.r]
+```r  [loadData.r]
 #| echo: FALSE # The content of this code block will not be shown when rendered
 #| output: FALSE # Output from this code block will not be shown when rendered
 #| cache: FALSE
@@ -54,6 +60,8 @@ df_long <- df_long %>%
     ungroup()
 
 ```
+
+::
 
 ## Overview
 
