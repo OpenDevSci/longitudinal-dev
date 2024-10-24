@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   target: 'static',
   extends: ['@nuxt/ui-pro'],
@@ -11,20 +10,43 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxthq/studio',
     'nuxt-og-image',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxt/icon' // Add the @nuxt/icon module
   ],
 
   hooks: {
-    // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
+    // Define `@nuxt/ui` components as global to use them in `.md`
     'components:extend': (components) => {
       const globals = components.filter(c => ['UButton', 'UIcon', 'ArticleList', 'SimpleCarousel'].includes(c.pascalName))
-
       globals.forEach(c => c.global = true)
     }
   },
+
   ui: {
     icons: ['heroicons', 'simple-icons']
   },
+
+  icon: {
+    clientBundle: {
+      // List of frequently used icons to include in the client bundle
+      icons: [
+        'vscode-icons:file-type-r',
+        'vscode-icons:file-type-python',
+        'vscode-icons:file-type-javascript',
+        'heroicons:moon-20-solid',
+        'simple-icons:github'
+      ],
+      // Enable scanning of all components in the project and include icons
+      scan: true,
+
+      // Include all custom collections in the client bundle
+      includeCustomCollections: true,
+
+      // Guard to ensure the bundle does not exceed 256KB
+      sizeLimitKb: 256
+    }
+  },
+
   colorMode: {
     disableTransition: true
   },
@@ -39,12 +61,6 @@ export default defineNuxtConfig({
       ignore: []
     }
   },
-
-  // routeRules: {
-  //   '/api/search.json': { prerender: true },
-  //   '/abcd-study': { static: true }, // Force this route to be static to prevent dynamic hydration issues
-  //   '/tutorials': { static: true } // Same adjustment for related routes
-  // },
 
   app: {
     baseURL: process.env.NUXT_APP_BASE_URL || '/', // Set this to your GitHub repo slug
@@ -71,16 +87,19 @@ export default defineNuxtConfig({
       }
     }
   },
+
   content: {
     documentDriven: true, // Ensuring document-driven mode is correctly enabled
     highlight: {
       langs: ['json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'md', 'yaml', 'r', 'mdc']
     }
   },
+
   css: [
     '@fortawesome/fontawesome-free/css/all.min.css',
     '@/assets/css/main.css'
   ],
+
   build: {
     postcss: {
       plugins: {
@@ -89,5 +108,6 @@ export default defineNuxtConfig({
       }
     }
   },
+
   compatibilityDate: '2024-07-11'
 })
