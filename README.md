@@ -87,7 +87,7 @@ Need help getting started? Our [Discussion](.github/Discussions.md) and [Issues]
 📘 For detailed instructions and how to utilize Codespaces for our project, dive into our [**Codespaces Guide**](.github/Codespaces.md).
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/beginDevSci/longitudinal-dev/blob/main/LICENSE) file for details.
 
 ## Contact
 For general queries or direct contributions, join our [Slack channel](https://github.com/beginDevSci/longitudinal-dev):
