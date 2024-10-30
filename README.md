@@ -15,10 +15,10 @@
   </a>
 </p>
 
-<h1 align="center">Longitudinal Data Science Platform</h1>
+<h1 align="center">A Longitudinal Data Science Platform</h1>
 
 <p align="center">
-  <strong>Supporting Longitudinal Data Science through Open Collaboration.</strong>
+  <strong>Supporting Longitudinal Data Science through Open Source Collaboration.</strong>
   <br />
   A hub for learning, sharing, and implementing approaches to longitudinal data science.
   <br />
@@ -38,9 +38,9 @@
 tags: Longitudinal, Data Science, Analysis, ABCD Study®, Biostatistics, Open Source
 </p>
 
-![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Chat on Slack](https://img.shields.io/badge/chat-on%20slack-yellow.svg)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/beginDevSci/longitudinal-dev/blob/main/CONTRIBUTING.md)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/beginDevSci/longitudinal-dev/blob/main/LICENSE)
+[![Chat on Slack](https://img.shields.io/badge/chat-on%20slack-yellow.svg)](https://join.slack.com/t/longitudinaldev/shared_invite/zt-2tha5rrhy-mQ~~YgGXEvYIkyaHP_UizQ)
 
 ## Table of Contents
 - [About the Project](#about-the-project)
