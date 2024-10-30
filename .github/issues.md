@@ -4,16 +4,16 @@ Welcome to the longitudinal.dev project! Issues are a big part of our collaborat
 
 ## :mag: Finding Issues to Work On
 
-Before starting work, please browse our [open issues](https://github.com/opendevsci/longitudinal.dev/.github/issues) to find something that interests you. Use labels such as `🐛 bug` or `good first issue` to filter for issues that might be a good match for your expertise or interest level.
+Before starting work, please browse our [open issues](https://github.com/beginDevSci/longitudinal.dev/.github/issues) to find something that interests you. Use labels such as `🐛 bug` or `good first issue` to filter for issues that might be a good match for your expertise or interest level.
 
-- **Good First Issues**: If you're new to the project, look for issues labeled [`good first issue`](https://github.com/opendevsci/longitudinal.dev/.github/issues). These are typically simpler tasks designed to get you familiar with the project workflow.
-- **Bug Fixes**: If you're interested in fixing bugs, search for issues labeled [`🐛 bug`](https://github.com/opendevsci/longitudinal.dev/.github/issues).
+- **Good First Issues**: If you're new to the project, look for issues labeled [`good first issue`](https://github.com/beginDevSci/longitudinal.dev/.github/issues). These are typically simpler tasks designed to get you familiar with the project workflow.
+- **Bug Fixes**: If you're interested in fixing bugs, search for issues labeled [`🐛 bug`](https://github.com/beginDevSci/longitudinal.dev/.github/issues).
 
 ## 📝 Using Issue Templates
 
 To maintain consistency and ensure that all necessary information is provided, we use issue templates for different kinds of contributions:
 
-1. **Creating a New Issue**: Navigate to our [Issue Templates Page](https://github.com/opendevsci/longitudinal.dev/.github/issues/new/choose) and select the template that best matches the type of issue you're reporting or suggestion you're making.
+1. **Creating a New Issue**: Navigate to our [Issue Templates Page](https://github.com/beginDevSci/longitudinal.dev/.github/issues/new/choose) and select the template that best matches the type of issue you're reporting or suggestion you're making.
 2. **Filling Out the Template**: Provide as much detail as possible within the template to help us understand the context and specifics of your issue or suggestion.
 
 ## 🚀 Taking an Issue
@@ -40,7 +40,7 @@ When you're ready to submit your work:
 
 ## 📚 Further Guidance
 
-- **Label Reference**: Use our [Label Reference](https://github.com/opendevsci/longitudinal.dev/labels) to understand the types of issues and prioritize.
-- **Self-Review Checklist**: Before submitting your issue or pull request, go through the [Self-Review Checklist](https://docs.github.com/opendevsci/longitudinal-dev/contributing/collaborating-on-github-docs/self-review-checklist) to ensure a smooth review process.
+- **Label Reference**: Use our [Label Reference](https://github.com/beginDevSci/longitudinal.dev/labels) to understand the types of issues and prioritize.
+- **Self-Review Checklist**: Before submitting your issue or pull request, go through the [Self-Review Checklist](https://docs.github.com/beginDevSci/longitudinal-dev/contributing/collaborating-on-github-docs/self-review-checklist) to ensure a smooth review process.
 
 Thank you for contributing to the longitudinal.dev project!

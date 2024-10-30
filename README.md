@@ -5,10 +5,10 @@
 
 <a name="readme-top"></a>
 
-[![](https://github.com/codespaces/badge.svg)](https://codespaces.new/opendevsci/longitudinal-dev?quickstart=1)
+[![](https://github.com/codespaces/badge.svg)](https://codespaces.new/beginDevSci/longitudinal-dev?quickstart=1)
 
 <p align="center">
-  <a href="https://github.com/OpenDevSci/longitudinal-dev">
+  <a href="https://github.com/beginDevSci/longitudinal-dev">
     <img src="/public/logo.svg" alt="Logo" width="200" height="200"/>
   </a>
 </p>
@@ -20,7 +20,7 @@
   <br />
   A hub for learning, sharing, and implementing longitudinal analysis methods using data from the Adolescent Brain and Cognitive Development (ABCD) Study.
   <br />
-  <a href="https://github.com/OpenDevSci/longitudinal-dev"><strong>Explore the Documentation »</strong></a>
+  <a href="https://github.com/beginDevSci/longitudinal-dev"><strong>Explore the Documentation »</strong></a>
   <br />
   <a href=".github/issues">Report Bug</a> •
   <a href=".github/issues">Request Feature</a>
@@ -67,7 +67,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/OpenDevSci/longitudinal-dev.git
+   git clone https://github.com/beginDevSci/longitudinal-dev.git
    cd longitudinal-dev
    ```
 
@@ -100,7 +100,7 @@ This project is licensed under the MIT License - see the [LICENSE](.github/LICEN
 ## Contact
 For general queries or direct contributions, join our Slack channel: Join Slack
 
-[Project Link](https://github.com/OpenDevSci/longitudinal-dev)
+[Project Link](https://github.com/beginDevSci/longitudinal-dev)
 
 ## Acknowledgments
 Thanks to all contributors and the ABCD Study® organizers.

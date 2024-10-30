@@ -22,7 +22,7 @@ export default defineAppConfig({
     colorMode: true,
     links: [{
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/OpenDevSci/longitudinal-dev',
+      'to': 'https://github.com/beginDevSci/longitudinal-dev',
       'target': '_blank',
       'aria-label': 'Docs template on GitHub'
     }]
@@ -41,7 +41,7 @@ export default defineAppConfig({
       'aria-label': 'Longitudinal.dev on Discord'
     }, {
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/OpenDevSci/longitudinal-dev',
+      'to': 'https://github.com/beginDevSci/longitudinal-dev',
       'target': '_blank',
       'aria-label': 'Longitudianl.dev on GitHub'
     }]
@@ -50,11 +50,11 @@ export default defineAppConfig({
     title: 'Table of Contents',
     bottom: {
       title: 'Community',
-      edit: 'https://github.com/OpenDevSci/longitudinal-dev/pulls',
+      edit: 'https://github.com/beginDevSci/longitudinal-dev/pulls',
       links: [{
         icon: 'i-heroicons-star',
         label: 'Star on GitHub',
-        to: 'https://github.com/OpenDevSci/longitudinal-dev',
+        to: 'https://github.com/beginDevSci/longitudinal-dev',
         target: '_blank'
       }]
     }

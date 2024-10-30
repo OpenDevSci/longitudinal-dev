@@ -4,11 +4,11 @@ blank_issues_enabled: false # Disables the ability for contributors to open a bl
 
 contact_links:
   - name: Project Wiki
-    url: https://github.com/OpenDevSci/longitudinal.dev/wiki
+    url: https://github.com/beginDevSci/longitudinal.dev/wiki
     about: Please check our wiki for a detailed documentation before submitting an issue.
 
   - name: General Inquiry
-    url: https://github.com/OpenDevSci/longitudinal.dev/discussions
+    url: https://github.com/beginDevSci/longitudinal.dev/discussions
     about: Have a question or need clarification? Start a discussion instead.
 
 issue_forms:

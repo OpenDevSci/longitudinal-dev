@@ -40,7 +40,7 @@ Remember: Regular commits provide a clear history of your work and facilitate ea
 Pull Requests (PRs) initiate discussion about your proposed changes. They are central to GitHub collaboration and a great way to get feedback.
 
 Push your branch to GitHub.
-Visit the [longitudinal-dev repository](https://github.com/OpenDevSci/longitudinal-dev) on GitHub.
+Visit the [longitudinal-dev repository](https://github.com/beginDevSci/longitudinal-dev) on GitHub.
 Click "New pull request" and select your branch.
 Provide a comprehensive description of your changes.
 
@@ -79,7 +79,7 @@ Tip: Regularly sync your local main branch with the upstream repository to stay 
 
 Additional Resources
 [Git Cheat Sheet](xxxxxx) for a quick reference to common Git commands.
-[longitudinal-dev Discussion Forum](https://github.com/OpenDevSci/longitudinal-dev/.github/discussions) for questions or to seek help with contributions.
+[longitudinal-dev Discussion Forum](https://github.com/beginDevSci/longitudinal-dev/.github/discussions) for questions or to seek help with contributions.
 
 We're excited to have you as a contributer!
 

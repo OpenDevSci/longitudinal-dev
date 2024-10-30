@@ -31,7 +31,7 @@ Repository Members:
    To clone the repository to your local machine, use the following command in your terminal. Replace `repository-url` with the actual URL of the repository you want to clone.
 
    ```bash
-   git clone https://github.com/opendevsci/longitudinal-dev.git
+   git clone https://github.com/beginDevSci/longitudinal-dev.git
    cd repository-url
    ```
 
@@ -66,7 +66,7 @@ Remember, pull requests are a great way to get feedback and make your contributi
 For those not a repository member:
 External contributors should start by forking the repository. This creates a copy of the repository in your own GitHub account, allowing you to make changes without affecting the main project until your contributions are reviewed and accepted.
 
-1. **Fork the Repository**: Visit the [longitudinal.dev repository](https://github.com/OpenDevSci/longitudinal-dev) on GitHub and click the "Fork" button at the top right corner.
+1. **Fork the Repository**: Visit the [longitudinal.dev repository](https://github.com/beginDevSci/longitudinal-dev) on GitHub and click the "Fork" button at the top right corner.
 2. **Clone Your Fork**: Clone the forked repository to your local machine.
 
 ```bash
@@ -84,7 +84,7 @@ cd longitudinal-dev
 
 ### Setting Up Your Local Development Environment
 
-After cloning the repository (or your fork), set up your local development environment by installing any necessary dependencies ([see our Codespaces Setup Guide](docs/Codespaces-Setup.md)) or [use one of our prebuilt CODESPACES](https://github.com/OpenDevSci/longitudinal-dev) (recommended).
+After cloning the repository (or your fork), set up your local development environment by installing any necessary dependencies ([see our Codespaces Setup Guide](docs/Codespaces-Setup.md)) or [use one of our prebuilt CODESPACES](https://github.com/beginDevSci/longitudinal-dev) (recommended).
 
 ### Creating and Using Branches
 
@@ -121,7 +121,7 @@ For detailed steps, best practices, and tips on navigating our GitHub Flow, plea
 ## GitHub Projects 🗂
 
 **Access our project board** for task management and collaboration [here]
-<!-- (https://github.com/orgs/OpenDevSci/projects/13). -->
+<!-- (https://github.com/orgs/beginDevSci/projects/13). -->
 
 ## GitHub Codespaces ☁️
 
