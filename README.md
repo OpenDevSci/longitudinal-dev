@@ -7,9 +7,9 @@
 
 [![](https://github.com/codespaces/badge.svg)](https://codespaces.new/beginDevSci/longitudinal-dev?quickstart=1)
 
-<img src="https://github.com/beginDevSci/longitudinal-dev/raw/main/logo.svg" alt="Logo" width="200" height="200">
+<img src="https://github.com/beginDevSci/longitudinal-dev/raw/main/public/images/github-logo.png" alt="Logo" width="200" height="200">
 
-![Logo](https://github.com/beginDevSci/longitudinal-dev/raw/main/logo.svg)
+![Logo](https://github.com/beginDevSci/longitudinal-dev/raw/main/public/images/github-logo.png)
 
 <p align="center">
   <a href="https://github.com/beginDevSci/longitudinal-dev">
@@ -19,13 +19,13 @@
 
 <p align="center">
   <a href="https://github.com/beginDevSci/longitudinal-dev">
-    <img src="/logo.svg" alt="Logo" width="200" height="200"/>
+    <img src="/public/images/github-logo.png" alt="Logo" width="200" height="200"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/beginDevSci/longitudinal-dev">
-    <img src="./logo.svg" alt="Logo" width="200" height="200"/>
+    <img src="./public/images/github-logo.png" alt="Logo" width="200" height="200"/>
   </a>
 </p>
 
