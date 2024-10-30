@@ -37,7 +37,7 @@ tags: Longitudinal, Data Science, Analysis, ABCD Study®, Biostatistics, Open So
 </p>
 
 [![Contribution Guidelines](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/beginDevSci/longitudinal-dev/blob/main/.github/CONTRIBUTING.md)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/beginDevSci/longitudinal-dev/blob/main/.github/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/beginDevSci/longitudinal-dev/blob/main/LICENSE)
 [![Chat on Slack](https://img.shields.io/badge/chat-on%20slack-yellow.svg)](https://join.slack.com/t/longitudinaldev/shared_invite/zt-2tha5rrhy-mQ~~YgGXEvYIkyaHP_UizQ)
 
 ## Table of Contents
@@ -87,7 +87,7 @@ Need help getting started? Our [Discussion](.github/Discussions.md) and [Issues]
 📘 For detailed instructions and how to utilize Codespaces for our project, dive into our [**Codespaces Guide**](.github/Codespaces.md).
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](.github/LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE.md) file for details.
 
 ## Contact
 For general queries or direct contributions, join our [Slack channel](https://github.com/beginDevSci/longitudinal-dev):
