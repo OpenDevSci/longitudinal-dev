@@ -76,9 +76,9 @@ Your contributions make a difference. Whether you're looking for help, offering 
 
 - **Ask Questions or Start a Discussion**: Visit the [Discussion Forum](.github/Discussions.md) to ask questions, share information, or start a conversation on research methods and analysis.
 
-- **Report and Solve Issues**: If you come across a problem or have an idea to share, head over to our [Issues Tracker](.github/Issues.md). Here, you can see what we’re currently working on, report new issues, or help us improve the project.
+- **Report and Solve Issues**: If you come across a problem or have an idea to share, head over to our [Issues Tracker](.github/ISSUES.md). Here, you can see what we’re currently working on, report new issues, or help us improve the project.
 
-Need help getting started? Our [Discussion](.github/Discussions.md) and [Issues](.github/Issues.md) guides provide all the information you need to use these resources effectively.
+Need help getting started? Our [Discussion](.github/Discussions.md) and [Issues](.github/ISSUES.md) guides provide all the information you need to use these resources effectively.
 
 ## 🚀 Codespace (in development)
 
