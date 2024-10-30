@@ -22,8 +22,14 @@
   <br />
   <a href="https://github.com/beginDevSci/longitudinal-dev"><strong>Explore the Documentation »</strong></a>
   <br />
-  <a href=".github/issues">Report Bug</a> •
-  <a href=".github/issues">Request Feature</a>
+  <!-- Link to report a bug using the bug-report.yml issue template -->
+  <a href="https://github.com/beginDevSci/longitudinal-dev/issues/new?template=bug-report.yml">Report Bug</a> •
+  <!-- Link to request a feature using the feature-request.yml issue template -->
+  <a href="https://github.com/beginDevSci/longitudinal-dev/issues/new?template=feature-request.yml">Request Feature</a> •
+  <!-- Link to a general inquiry using the general-inquiry.yml issue template -->
+  <a href="https://github.com/beginDevSci/longitudinal-dev/issues/new?template=general-inquiry.yml">General Inquiry</a> •
+  <!-- Link to request documentation improvements using the documentation-improvements.yml issue template -->
+  <a href="https://github.com/beginDevSci/longitudinal-dev/issues/new?template=documentation-improvements.yml">Documentation Improvements</a>
 </p>
 
 <p align="center">
