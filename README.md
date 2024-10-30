@@ -7,7 +7,7 @@
 
 [![](https://github.com/codespaces/badge.svg)](https://codespaces.new/beginDevSci/longitudinal-dev?quickstart=1)
 
-
+[Contributing Guidelines](https://github.com/beginDevSci/longitudinal-dev/blob/main/.github/CONTRIBUTING.md)
 
 <p align="center">
   <a href="https://github.com/beginDevSci/longitudinal-dev">
