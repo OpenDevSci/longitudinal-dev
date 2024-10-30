@@ -7,6 +7,8 @@
 
 [![](https://github.com/codespaces/badge.svg)](https://codespaces.new/beginDevSci/longitudinal-dev?quickstart=1)
 
+<img src="https://github.com/beginDevSci/longitudinal-dev/raw/main/public/logo.svg" alt="Logo" width="200" height="200">
+
 ![Logo](https://github.com/beginDevSci/longitudinal-dev/raw/main/public/logo.svg)
 
 <p align="center">
