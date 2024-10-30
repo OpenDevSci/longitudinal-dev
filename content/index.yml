@@ -30,7 +30,7 @@ hero:
     data(demo_data)
 
     ggplot(demo_data, aes(x = predictor_variable, y = response_variable)) +
-    geom_point(color = "#3498db", size = 3) +
+    ggeom_point(color = "#3498db", size = 3) +
     geom_smooth(method = "lm", color = "#e74c3c", se = FALSE) +
     labs(
     title = "Relationship between Predictor and Response",
