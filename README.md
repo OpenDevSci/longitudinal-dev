@@ -7,8 +7,6 @@
 
 [![](https://github.com/codespaces/badge.svg)](https://codespaces.new/beginDevSci/longitudinal-dev?quickstart=1)
 
-[Contributing Guidelines](https://github.com/beginDevSci/longitudinal-dev/blob/main/.github/CONTRIBUTING.md)
-
 <p align="center">
   <a href="https://github.com/beginDevSci/longitudinal-dev">
     <img src="/public/logo.svg" alt="Logo" width="200" height="200"/>
@@ -39,9 +37,7 @@ tags: Longitudinal, Data Science, Analysis, ABCD Study®, Biostatistics, Open So
 </p>
 
 [![Contribution Guidelines](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/beginDevSci/longitudinal-dev/blob/main/.github/CONTRIBUTING.md)
-
-[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/beginDevSci/longitudinal-dev/blob/main/CONTRIBUTING.md)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/beginDevSci/longitudinal-dev/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/beginDevSci/longitudinal-dev/blob/main/.github/LICENSE)
 [![Chat on Slack](https://img.shields.io/badge/chat-on%20slack-yellow.svg)](https://join.slack.com/t/longitudinaldev/shared_invite/zt-2tha5rrhy-mQ~~YgGXEvYIkyaHP_UizQ)
 
 ## Table of Contents
