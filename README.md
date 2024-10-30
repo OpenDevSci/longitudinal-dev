@@ -18,9 +18,9 @@
 <h1 align="center">Longitudinal Data Science Platform</h1>
 
 <p align="center">
-  <strong>Empowering Longitudinal Data Science through Open Collaboration.</strong>
+  <strong>Supporting Longitudinal Data Science through Open Collaboration.</strong>
   <br />
-  A hub for learning, sharing, and implementing longitudinal analysis methods using data from the Adolescent Brain and Cognitive Development (ABCD) Study.
+  A hub for learning, sharing, and implementing approaches to longitudinal data science.
   <br />
   <a href="https://github.com/beginDevSci/longitudinal-dev"><strong>Explore the Documentation »</strong></a>
   <br />
@@ -35,7 +35,7 @@
 </p>
 
 <p align="center">
-tags: Longitudinal Analysis, ABCD Study®, Biostatistics, Open Science, R Programming
+tags: Longitudinal, Data Science, Analysis, ABCD Study®, Biostatistics, Open Source
 </p>
 
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
@@ -58,28 +58,14 @@ tags: Longitudinal Analysis, ABCD Study®, Biostatistics, Open Science, R Progra
 
 ## About the Project
 
-This repository is intended to serve as an open-source hub designed to foster collaboration, learning, and application of longitudinal data science. This project, underpinned by data from the ABCD Study®, aims to bridge the gap between statistical methods and their practical implementation. A primary aim is to enable researchers and students alike to access, contribute to, and learn from a rich repository of knowledge and code.
+This repository is intended to serve as an open-source hub designed to foster collaboration, learning, and application of longitudinal data science methods. Our goal aim is to enable researchers and students alike to access, contribute to, and learn from a rich repository of knowledge and code.
 
 ## Features
 
-- **Comprehensive Method Overviews**: Detailed explanations and comparisons of various longitudinal analysis methods.
-- **R Code Snippets**: Ready-to-use code examples to help researchers apply methods to their own data.
-- **Collaborative Environment**: Tools and guidelines for contributing to both the academic manuscript and codebase.
-- **Educational Resources**: Guides, tutorials, and links to further readings for those new to longitudinal analysis.
-
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/beginDevSci/longitudinal-dev.git
-   cd longitudinal-dev
-   ```
-
-[Additional steps specific to the project]
+- **Comprehensive Method Overviews**: Detailed explanations and comparisons of longitudinal analysis methods.
+- **Code Snippets**: Ready-to-use code examples to help researchers apply methods to their own data.
+- **Collaborative Environment**: Tools and guidelines for contributing to the project.
+- **Educational Resources**: Guides, tutorials, and links to further readings.
 
 ## Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. Check out our [Contribution Guide](.github/Contributing.md) for more information on how to get started.
@@ -88,15 +74,15 @@ Contributions are what make the open-source community such an amazing place to l
 
 **Join Our Community Conversations!** 🗣️
 
-Your contributions make a difference. Whether you're looking for help, offering suggestions, or have questions, the community is here for you.
+Your contributions make a difference. Whether you're looking for help, offering suggestions, or have questions.
 
-- **Ask Questions or Start a Discussion**: Visit the [Discussion Forum](.github/Discussions.md) to ask questions, share your findings, or start a conversation on research methods and analysis.
+- **Ask Questions or Start a Discussion**: Visit the [Discussion Forum](.github/Discussions.md) to ask questions, share information, or start a conversation on research methods and analysis.
 
 - **Report and Solve Issues**: If you come across a problem or have an idea to share, head over to our [Issues Tracker](.github/Issues.md). Here, you can see what we’re currently working on, report new issues, or help us improve the project.
 
 Need help getting started? Our [Discussion](.github/Discussions.md) and [Issues](.github/Issues.md) guides provide all the information you need to use these resources effectively.
 
-## 🚀 Codespace
+## 🚀 Codespace (in development)
 
 **Quickly prepare your development environment** with longitudinal.dev Codespaces. Whether you're contributing from afar or simply want to streamline your setup, our Codespaces have you covered. 
 
@@ -106,14 +92,11 @@ Need help getting started? Our [Discussion](.github/Discussions.md) and [Issues]
 This project is licensed under the MIT License - see the [LICENSE](.github/LICENSE.md) file for details.
 
 ## Contact
-For general queries or direct contributions, join our Slack channel: Join Slack
+For general queries or direct contributions, join our [Slack channel](https://github.com/beginDevSci/longitudinal-dev):
 
-[Project Link](https://github.com/beginDevSci/longitudinal-dev)
+## Acknowledgments/Contributions
 
-## Acknowledgments
-Thanks to all contributors and the ABCD Study® organizers.
-Special thanks to [XYZ] for providing essential xxxxxx.
-Add additional acknowledgements.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
