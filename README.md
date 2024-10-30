@@ -118,8 +118,6 @@ Add additional acknowledgements.
 
 
 ### Add Buttons for Quick Actions
-
-```markdown
 <p align="center">
   <a href=".github/issues/new?assignees=&labels=bug&template=bug_report.md">Report Bug</a> •
   <a href=".github/issues/new?assignees=&labels=enhancement&template=feature_request.md">Request Feature</a> •
