@@ -14,7 +14,6 @@
 </p>
 
 <h1 align="center">A Longitudinal Data Science Platform</h1>
-<h1 align="center">A Longitudinal Data Science Platform</h1>
 
 <p align="center">
   <span style="color:red;">🚧 <b>This repository is currently under construction.</b> 🚧</span><br>
