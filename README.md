@@ -51,7 +51,7 @@ tags: Longitudinal, Data Science, Analysis, ABCD Study®, Biostatistics, Open So
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Discussion & Issues](#discussion--issues)
-- [Codespace](#🚀 Codespace (in development))
+- [Codespace](#codespace)
 - [License](#license)
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
@@ -82,7 +82,7 @@ Your contributions make a difference. Whether you're looking for help, offering 
 
 Need help getting started? Our [Discussion](.github/Discussions.md) and [Issues](.github/ISSUES.md) guides provide all the information you need to use these resources effectively.
 
-## 🚀 Codespace (in development)
+## Codespace
 
 **Quickly prepare your development environment** with longitudinal.dev Codespaces. Whether you're contributing from afar or simply want to streamline your setup, our Codespaces have you covered. 
 
