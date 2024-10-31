@@ -1,0 +1,66 @@
+# Global configuration for issue templates, discussions, and contributing guidelines
+
+blank_issues_enabled: false # Disables the ability for contributors to open a blank issue
+
+contact_links:
+  - name: Project Wiki
+    url: https://github.com/beginDevSci/longitudinal.dev/wiki
+    about: Check our wiki for comprehensive documentation before opening an issue.
+
+  - name: Discussions
+    url: https://github.com/beginDevSci/longitudinal.dev/discussions
+    about: Use discussions for general questions or idea-sharing.
+
+  - name: Support FAQ
+    url: https://github.com/beginDevSci/longitudinal.dev/wiki/Support-FAQ
+    about: Visit our FAQ section for common questions and troubleshooting tips.
+
+# Issue Template Forms - Organized for Improved Usability
+issue_forms:
+  # Research Tasks Templates
+  - name: Data Analysis Request
+    description: Request or propose an analysis plan.
+    template: ISSUE_TEMPLATE/data-analysis-request.yml
+    labels: ["research task", "analysis"]
+
+  - name: Manuscript Development Task
+    description: Assign tasks related to manuscript development.
+    template: ISSUE_TEMPLATE/manuscript-development-task.yml
+    labels: ["research task", "manuscript"]
+
+  # User Support Templates
+  - name: Bug Report
+    description: Report a bug to help us improve.
+    template: ISSUE_TEMPLATE/bug-report.yml
+    labels: ["bug", "needs-triage"]
+
+  - name: Feature Request
+    description: Suggest new features or enhancements.
+    template: ISSUE_TEMPLATE/feature-request.yml
+    labels: ["enhancement", "needs-discussion"]
+
+  - name: Documentation Improvements
+    description: Propose updates or request clarifications for documentation.
+    template: ISSUE_TEMPLATE/documentation-improvements.yml
+    labels: ["documentation", "needs-review"]
+
+  - name: Support Questions
+    description: Ask for support or assistance with the project.
+    template: ISSUE_TEMPLATE/support-questions.yml
+    labels: ["support", "question"]
+
+  # Community Engagement Templates
+  - name: Engagements and Events
+    description: Propose events or community sessions.
+    template: ISSUE_TEMPLATE/engagements-events.yml
+    labels: ["community", "event"]
+
+  - name: General Inquiry
+    description: Start a discussion or ask a general question.
+    template: ISSUE_TEMPLATE/general-inquiry.yml
+    labels: ["discussion", "question"]
+
+# Pull Request Template (Automatically Referenced if Located in /.github/PULL_REQUEST_TEMPLATE)
+pull_request_template:
+  - path: PULL_REQUEST_TEMPLATE/pull_request_template.md
+    about: Use this template for submitting new pull requests.
