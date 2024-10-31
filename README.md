@@ -14,6 +14,10 @@
 </p>
 
 <h1 align="center">A Longitudinal Data Science Platform</h1>
+<p align="center">
+  🚧 **This repository is currently under construction.** 🚧<br>
+  Stay tuned for updates as we continue building and improving this platform.
+</p>
 
 <p align="center">
   <strong>Supporting Longitudinal Data Science through Open Source Collaboration.</strong>
@@ -43,9 +47,6 @@ tags: Longitudinal, Data Science, Analysis, ABCD Study®, Biostatistics, Open So
 ## Table of Contents
 - [About the Project](#about-the-project)
 - [Features](#features)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Discussion & Issues](#discussion--issues)
