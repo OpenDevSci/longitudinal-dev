@@ -1,8 +1,9 @@
-# Contributing to longitudinal.dev 🌟
+# Contributing to Longitudinal.dev 🌟
 
-Welcome to the longitudinal.dev contributing guide! We're thrilled to have you join our community of researchers, developers, and contributors. This guide provides essential information on how to contribute to the project, focusing on our collaborative workflow inspired by [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow).
+Welcome to the **longitudinal.dev** contributing guide! We're excited to have you join our community of researchers, developers, and contributors. Whether you're here to suggest ideas, improve documentation, or contribute code, this guide will help you get started and provide an overview of our collaborative process.
 
 ## Table of Contents
+
 - [Getting Started 🚀](#getting-started-)
   - [Prerequisites](#prerequisites)
   - [Internal Members](#internal-members)
@@ -17,165 +18,140 @@ Welcome to the longitudinal.dev contributing guide! We're thrilled to have you j
 - [GitHub Projects 🗂](#github-projects-)
 - [GitHub Codespaces ☁️](#github-codespaces-)
 - [Communication and Support 📢](#communication-and-support-)
+- [Additional Resources 📚](#additional-resources-)
+- [Feedback and Suggestions 💡](#feedback-and-suggestions-)
+
+---
 
 ## Getting Started 🚀
 
-Please start by reviewing our [project's README](README.md) for an overview of longitudinal.dev, which sets the foundation for meaningful contributions.
+If you’re new to **longitudinal.dev**, start by checking out the [project README](README.md) for a quick overview. The README covers our goals and mission, providing a helpful foundation for understanding how you can contribute.
 
 ### Prerequisites
 
-- **Git**: Ensure you have Git installed on your machine.
-- **Node.js and npm**: Install the latest LTS version of Node.js, which includes npm.
-- **Familiarity with Nuxt.js and Vue.js**: Our project is built with Nuxt.js and Vue.js.
+Before contributing, make sure you’re familiar with:
+
+- Basic [Git](https://git-scm.com/doc) and [GitHub](https://docs.github.com) usage
+- [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow) (our collaborative workflow)
+- [Markdown](https://guides.github.com/features/mastering-markdown/) for writing and editing documentation
 
 ### Internal Members
 
-Repository members should:
+For contributors who are members of the repository:
 
-1. **Clone the Repository**
+1. **Clone the Repository**: Start by cloning the repository to your local machine.
 
    ```bash
    git clone https://github.com/beginDevSci/longitudinal-dev.git
    cd longitudinal-dev
    ```
 
-2.	Create a New Branch
-Create a new branch to keep your changes organized and separate from the main branch. Replace branch-name with a descriptive name for your branch.
+2.	Create a Branch: Create a branch for your work. Use a descriptive name (e.g., feature-login-ui or fix-typo-docs).
 
    ```bash
-git checkout -b branch-name
-```
-
-	3.	Push Changes to GitHub
-After committing your changes to the new branch, push it to the repository.
-   
-   ```bash
-   git push origin branch-name
+   git checkout -b your-branch-name
    ```
 
-  4.	Open a Pull Request (PR)
-On GitHub, go to the repository page and open a pull request to propose your changes. Provide a clear title and description and tag any collaborators if needed.
+3.	Make Your Changes: After making changes, commit them with a clear message.
+
+4.	Push and Open a PR: Push your branch to GitHub and open a Pull Request (PR). Give it a meaningful title and provide a brief description of your changes.
+   
+   ```bash
+   git push origin your-branch-name
+   ```
+After pushing, go to the repository on GitHub and open a PR. Mention relevant team members if needed.
 
 External Contributors
 
-If you are not a repository member:
+If you’re new to the repository, welcome! Follow these steps to contribute:
 
-	1.	Fork the Repository
-Go to the longitudinal.dev repository on GitHub and click “Fork” in the top right corner.
-	2.	Clone Your Fork 
+1.	Fork the Repository: In the top right of the main repository page, click Fork to create a personal copy of the repo on your GitHub account.
+
+2.	Clone Your Fork: Download the repository to your local machine.
+
    ```bash
    git clone https://github.com/yourusername/longitudinal-dev.git
-cd longitudinal-dev
+   cd longitudinal-dev
    ```
 
-   3.	Create a New Branch
-
-   	3.	Create a Branch, Make Changes, and Open a PR
-Follow the same steps as internal members to create a branch, push changes, and open a pull request.
-
-Local Development Setup
-
-After cloning, set up your environment:
-
-	1.	Install Dependencies
-   ```bash
-   npm install
-   ```
-
-   2.	Start the Development Server
-   ```bash
-   npm run dev
-   ```
-This will start the Nuxt.js development server. You can view the project at http://localhost:3000.
-
-For detailed setup instructions, refer to our Codespaces Setup Guide or use a prebuilt GitHub Codespace (recommended).
+3.	Create a Branch, Make Changes, and Open a PR: Follow the same branching, committing, and PR steps as internal members. We’ll review your PR and provide feedback if necessary.
 
 Understanding GitHub Flow 🔄
 
-Our GitHub Flow workflow helps organize contributions and ensure reliable deployments:
+We follow GitHub Flow to maintain a smooth workflow and ensure project stability. Here’s an overview:
 
-	1.	Create a branch for each feature or fix.
-	2.	Commit changes with clear messages.
-	3.	Open a Pull Request (PR) to propose changes.
-	4.	Review and discuss PRs for code quality and feedback.
-	5.	Merge approved changes into main for deployment.
+	1.	Create a Branch for each new feature or fix.
+	2.	Commit Regularly with clear messages describing your changes.
+	3.	Open a PR when you’re ready for feedback or merging.
+	4.	Review and Discuss your PR. Other contributors may provide feedback to improve your code.
+	5.	Merge Approved Changes to the main branch, which triggers deployment.
 
-This workflow applies to all contributors and keeps the project stable and organized. For further details, see our GitHub Flow Guide.
+This process helps keep the codebase organized and reliable for everyone. For more details, refer to our GitHub Flow Guide.
 
 Contribution Guidelines 📝
 
+Here are a few things to keep in mind when contributing:
+
 Code Contributions
 
-	•	Coding Standards: Follow the project’s coding style and conventions. Use Prettier for code formatting.
-	•	Testing: Ensure that your changes do not break existing functionality. Add tests if applicable.
-	•	Commit Messages: Write clear and descriptive commit messages.
+	•	Coding Standards: Follow the project’s coding style and conventions. We recommend using Prettier for code formatting.
+	•	Testing: Ensure that your changes don’t break existing functionality. Add tests if applicable.
+	•	Commit Messages: Use clear and descriptive commit messages. Think of commit messages as a record of what each change accomplishes.
 
 Documentation Contributions
 
-	•	Improving Documentation: Help us enhance our documentation by fixing typos, clarifying instructions, or adding new sections.
-	•	Style Guide: Use clear, concise language. Follow Markdown best practices.
+	•	Improving Documentation: If you notice any typos, unclear sections, or areas that could be expanded, feel free to make edits.
+	•	Writing Style: Aim for clear, concise language. Follow Markdown best practices.
 
 Tutorials and Examples
 
-We have a collection of tutorials and examples related to longitudinal data analysis. You can contribute by:
+Our tutorials cover a range of topics in longitudinal data analysis. You can contribute by:
 
-	•	Adding New Tutorials: Create tutorials on topics like linear mixed-effects models, growth curve models, survival analysis, etc.
-	•	Improving Existing Tutorials: Enhance clarity, update code examples, or fix errors.
-	•	Dataset Examples: Include simple, generated datasets for tutorial purposes.
+	•	Adding New Tutorials: Cover topics like linear mixed-effects models, growth curve models, or survival analysis.
+	•	Improving Existing Tutorials: Edit for clarity, update examples, or correct errors.
+	•	Providing Sample Datasets: Include simple, generated datasets when possible to make tutorials more accessible.
 
 Issue Reporting
 
-If you find bugs or have feature requests:
+Found a bug or have an idea for a new feature? We’d love to hear it!
 
-	•	Search Existing Issues: Before opening a new issue, check if it has already been reported.
-	•	Use Issue Templates: Use the appropriate issue template for bugs, feature requests, or other inquiries.
-	•	Provide Detailed Information: Include steps to reproduce, expected behavior, and screenshots if applicable.
+	•	Search Existing Issues: Before opening a new issue, check if it’s already reported.
+	•	Use Issue Templates: Select the appropriate template for bugs, feature requests, or general questions.
+	•	Provide Details: Include as much information as possible (steps to reproduce, screenshots, etc.).
 
 GitHub Projects 🗂
 
-We use GitHub Projects for tracking tasks and project progress. Visit our project board to see ongoing tasks and pick an issue to contribute to.
+Our GitHub Projects board tracks ongoing tasks and project progress. Take a look to see if there’s an open issue or task that matches your skills and interests.
 
 GitHub Codespaces ☁️
 
-To quickly set up a development environment, use GitHub Codespaces:
+GitHub Codespaces offers a fully managed, cloud-based development environment:
 
-	1.	Open the repository on GitHub and click “Code” > “Codespaces” > “Create codespace on main”.
-	2.	For more details, refer to the Codespaces Setup Guide.
+	1.	Create a Codespace: Open the repository on GitHub and select “Code” > “Codespaces” > “Create codespace on main.”
+	2.	For more details, check our Codespaces Setup Guide.
+
+This option can save time by avoiding local setup!
 
 Communication and Support 📢
 
-We use Slack for quick questions and updates, and GitHub Discussions and Issues for detailed, searchable conversations.
+We believe in open communication and support for all contributors. Join us on these channels:
 
-	•	Slack Channel: Join our Slack community.
-	•	GitHub Discussions: For general questions and ideas, visit our Discussions page.
-	•	Issues: Report bugs or request features via GitHub Issues.
+	•	Slack: For quick questions and updates, join our Slack channel.
+	•	GitHub Discussions: For broader conversations and community questions, visit Discussions.
+	•	GitHub Issues: Report bugs or request features through Issues.
 
 Additional Resources 📚
 
-	•	Code of Conduct: Please read our Code of Conduct to understand the expectations for participant behavior.
-	•	Contribution Checklist: Before submitting, ensure you’ve reviewed the Contribution Checklist.
-   ## Additional Resources 📚
+	•	Code of Conduct: Review our Code of Conduct to understand expected behavior.
+	•	Contribution Checklist: Before submitting, consult the Contribution Checklist to ensure your PR is complete.
 
-   - **Code of Conduct**: Please read our [Code of Conduct](CODE_OF_CONDUCT.md) to understand the expectations for participant behavior.
-   - **Contribution Checklist**: Before submitting, ensure you’ve reviewed the [Contribution Checklist](CONTRIBUTION_CHECKLIST.md).
-
-   ## Feedback and Suggestions 💡
-
-   We welcome feedback on all aspects of the project. If you have ideas on how to improve the contributing process, feel free to:
-
-   - **Open an Issue**: Use the “Documentation Improvements” issue template.
-   - **Start a Discussion**: Engage with the community on our [Discussions](https://github.com/beginDevSci/longitudinal-dev/discussions) page.
-
-   Thank you for contributing to longitudinal.dev! Your support and involvement help make this project successful.
-
-   [Back to top](#table-of-contents)
 Feedback and Suggestions 💡
 
-We welcome feedback on all aspects of the project. If you have ideas on how to improve the contributing process, feel free to:
+We’re always open to improving the contribution process! If you have suggestions, you can:
 
-	•	Open an Issue: Use the “Documentation Improvements” issue template.
-	•	Start a Discussion: Engage with the community on our Discussions page.
+	•	Open an Issue: Use the “Documentation Improvements” template.
+	•	Start a Discussion: Share ideas and engage with the community on our Discussions page.
 
-Thank you for contributing to longitudinal.dev! Your support and involvement help make this project successful.
+Thank you for helping make longitudinal.dev better. We’re glad to have you with us!
 
 Back to top
