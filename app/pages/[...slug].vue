@@ -41,12 +41,17 @@ defineOgImage({
 
 const headline = computed(() => findPageHeadline(page.value));
 
+// Construct GitHub Web Editor URL dynamically
+const githubRepoUrl = "https://github.com/beginDevSci/longitudinal-dev";
+const filePath = page?.value?._file.replace(/^content\//, ""); // Adjust based on your file structure
+const editUrl = `${githubRepoUrl}/edit/main/content/${filePath}`;
+
 const links = computed(() =>
   [
     toc?.bottom?.edit && {
       icon: "i-heroicons-pencil-square",
       label: "Edit this page",
-      to: `${toc.bottom.edit}/${page?.value?._file}`,
+      to: editUrl, // Use the constructed GitHub Web Editor URL
       target: "_blank",
     },
     ...(toc?.bottom?.links || []),
@@ -65,14 +70,12 @@ const links = computed(() =>
 
     <UPageBody prose>
       <client-only>
-        <
         <ContentRenderer v-if="page.body" :value="page" />
-        /client-only>
-
-        <hr v-if="surround?.length" />
-
-        <UContentSurround :surround="surround" />
       </client-only>
+
+      <hr v-if="surround?.length" />
+
+      <UContentSurround :surround="surround" />
     </UPageBody>
 
     <template v-if="page.toc !== false" #right>
