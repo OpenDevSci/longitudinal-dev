@@ -20,7 +20,7 @@ hero:
       icon: i-simple-icons-github
       size: lg
       color: gray
-      to: https://github.com/beginDevSci/longitudinal-dev
+      to: https://github.com/beginnDevSci/longitudinal-dev
       target: _blank
   code: |
     ```r [demo_model.r]
@@ -61,7 +61,7 @@ features:
     - title: "Contribute"
       description: "How to contribute to the project."
       icon: "i-heroicons-information-circle-solid"
-      to: "https://github.com/beginDevSci/longitudinal-dev/blob/main/.github/Contributing.md"
+      to: "https://github.com/OpenDevSci/longitudinal-dev/blob/main/.github/Contributing.md"
       target: "_target"
     - title: "ABCD Examples"
       description: "Code-driven examples using data from the ABCD Study®."
@@ -81,7 +81,7 @@ features:
     - title: "Github"
       description: "Go to the project's Github page."
       icon: "i-simple-icons-github"
-      to: "https://github.com/beginDevSci/longitudinal-dev"
+      to: "https://github.com/OpenDevSci/longitudinal-dev"
       target: "_blank"
     - title: "Open Source Tools"
       description: "Tools for researchers."
