@@ -48,7 +48,7 @@ export default defineNuxtConfig({
   },
 
   colorMode: {
-    preference: 'dark', // Set dark mode as the default preference
+    preference: 'dark', // Set dark mode as the default
     fallback: 'dark', // Fallback to dark if no system preference is found
     classSuffix: '', // This means the class applied will be `dark` without a suffix
     disableTransition: true
