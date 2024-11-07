@@ -99,7 +99,7 @@ descriptives_table
 
 ## Results
 ### Compute LMM Model with Random Intercepts
-This code fits a radom-intercept LMM to predict 'Height' across 3 annual visits, accounting for individual-level variability (random effects) of intercept values across participants. Model output is provided below, as well as a brief summary of results.
+This code fits a random-intercept LMM to predict 'Height' across 3 annual visits, accounting for individual-level variability (random effects) of intercept values across participants. Model output is provided below, as well as a brief summary of results.
 
 This model accounts for individual variability in height by including a random intercept for each subject (id). The output indicates that the model was fit using the REML (Restricted Maximum Likelihood) criterion. 
 

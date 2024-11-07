@@ -210,3 +210,19 @@ html {
   background-color: #00dc82;
   color: #fff;
 }
+
+/* Light Mode Styling */
+body.light-mode .dark-mode-icon {
+  color: #333; /* Darker color for contrast */
+  background-color: #f0f0f0; /* Light gray background */
+  border-radius: 50%;
+  padding: 5px;
+}
+
+/* Dark Mode Styling */
+body.dark-mode .light-mode-icon {
+  color: #fff; /* Light color for contrast */
+  background-color: #333; /* Dark background */
+  border-radius: 50%;
+  padding: 5px;
+}
