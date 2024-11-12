@@ -94,7 +94,7 @@ df_long <- df_selected %>%
 ::
 
 ## Overview
-#testing again
+#testing again Daniel
 Latent change score models are a statistical technique used for analyzing changes over time by integrating aspects of both structural equation modeling and traditional change score methods. This approach constructs latent variables that directly represent change between time points. First, latent variables for each time point are modeled to capture the true score of the variable of interest, adjusting for measurement error. Then, latent change scores are defined as the difference between latent variables across consecutive time points.
 
 This example will explore changes in height from baseline to 3 subsequent annual follow-ups in a sample of participants from the ABCD Study®. Initially, latent variables for height at each time point are defined to account for measurement error and capture the true height scores. Latent change scores are then calculated between each pair of consecutive time points to model the true change in height. The dynamics of these changes are visually depicted using trajectory plots, providing a clear visual representation of growth patterns across participants the study.
