@@ -25,7 +25,7 @@ definePageMeta({ documentDriven: { page: false } });
         <br />
 
         <a
-          href="/longitudinal_analysis_abcd.pdf"
+          href="/abcd_manuscript.pdf"
           target="_blank"
           rel="noopener noreferrer"
           class="text-blue-500 hover:underline"
@@ -33,7 +33,7 @@ definePageMeta({ documentDriven: { page: false } });
           “Longitudinal Analysis of the ABCD Study®”.</a
         >
         <a
-          href="/longitudinal_analysis_abcd.pdf"
+          href="/abcd_manuscript.pdf"
           target="_blank"
           download="Longitudinal Analysis of the ABCD Study.pdf"
           class="text-red-200 hover:text-red-500"
